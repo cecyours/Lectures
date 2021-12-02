@@ -20,7 +20,7 @@ print(" i = ",i," : ",type(i))
 print(" ------ --- -- - -- ");
 
 
-i = [1,"Karan","Abhi",32.42,"GK"]
+i = [1,"Karan","Abhi",32.42,"GK"] #list
 print(" i = ",i," : ",type(i))
 print(" ------ --- -- - -- ");
 
