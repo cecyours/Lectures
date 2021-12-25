@@ -23,6 +23,10 @@ class CH01_P02_SimpleInterest{
 
 
 		System.out.printf("SI : %f\n",SI);
+
+		System.out.printf("SI : %.3f\n",SI);
+
+		System.out.println("SI : "+SI);
 			
 	}
 }
