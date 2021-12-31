@@ -5,6 +5,7 @@
 1. write a program to display n numbers with for loop.
 	```java
 		// syntax:
+	
 		for(int i=0;i<n;i++)
 		{
 			// code
@@ -21,7 +22,7 @@
 
 				if(num%2!=0)
 					i++;
-				
+
 				num++;
 			}
 	```
