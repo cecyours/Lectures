@@ -2,7 +2,7 @@
 import java.io.*;
 class CH02_P04_BufferedReaderStudentData{
 	public static void main(String[] args) throws IOException {
-		// Scanner sc = new Scanner(System.in);
+		 
  
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

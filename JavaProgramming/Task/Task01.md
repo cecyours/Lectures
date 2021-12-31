@@ -3,9 +3,10 @@
 
 | use previous exmples/internet if you are stuck !!! 
 1. write a program to display n numbers with for loop.
+	
 	```java
 		// syntax:
-	
+
 		for(int i=0;i<n;i++)
 		{
 			// code
@@ -26,3 +27,8 @@
 				num++;
 			}
 	```
+3. write a program to convert negative number to zero without using multiplication.
+
+
+
+
