@@ -46,7 +46,6 @@ class ArrayGk{
 	 		for(j=0;j<c;j++)
 	 		{
 	 			System.out.printf(" %2d ",a[i][j]);
-	 			 
 	 		}
 	 		System.out.println();
 	 	}	 		
