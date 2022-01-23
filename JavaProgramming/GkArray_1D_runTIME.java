@@ -18,7 +18,6 @@ class ArrayGk{
 	{
 		System.out.print("Enter size : ");
 		n = Integer.parseInt(br.readLine());
-		
 		a = new int[n];
 
 		System.out.println("Enter "+n+" elements : ");
