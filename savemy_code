@@ -1,0 +1,6 @@
+m=$(date +%d/%m/%Y⠀⎦⎡⠀%H:%M⠀⎦⎢⠀%A)
+
+git pull --all
+git add .
+git commit -m $m
+git push --all
