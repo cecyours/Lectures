@@ -16,6 +16,7 @@ text editor(notepad->sublime, notepad++, vsCode) + browser(google chrome)
 	  Java
 	 python ```
 2 . scripting : website 
+
 	```
 	JavaScript(JS),
 	 php, 
