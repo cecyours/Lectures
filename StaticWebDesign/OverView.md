@@ -20,7 +20,9 @@ text editor(notepad->sublime, notepad++, vsCode) + browser(google chrome)
 	JavaScript(JS),
 	 php, 
 	node.js```
+
 3. markup :
+
 	```HTML,
 	 MarkDown, 
 	CSS```
