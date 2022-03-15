@@ -15,7 +15,6 @@ class Dog{
 	String name;
 	int height;
 
-
 	/**behaviour*/
 	void barking()
 	{
