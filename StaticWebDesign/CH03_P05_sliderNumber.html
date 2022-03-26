@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Form</title>
+	<style type="text/css">
+		body{
+			background: linear-gradient(to right,#ffffff,#005000);
+			color: white;
+			font-family: Cooper;
+		}
+		input,td{
+			padding: 2px;
+		}
+		td{
+			width: 200px;
+			font-size:20px;
+
+		}
+		.hell{
+			text-align: right;
+		}
+		input{
+			padding: 3px;
+			border-radius: 10px;
+			background: transparent;
+			color: white;
+		}
+		h1{
+			color: white;
+		}
+		hr{
+			width: 250px;
+		}
+
+	</style>	
+	<script type="text/javascript">
+		function hello() {
+			// body...
+
+			var a = document.getElementById('price');
+			var b = document.getElementById('result');
+
+			b.value = a.value;
+			alert("Hello "+b.value);
+
+		}
+
+	</script>
+</head>
+<body>
+	<form>
+		<input type="range" id="price" min="100" max="1000" >
+		<input type="text" id="result">
+		<button onclick="hello()">Hello</button>
+
+	</form>
+
+</body>
+</html>

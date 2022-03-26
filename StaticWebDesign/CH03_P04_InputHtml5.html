@@ -5,7 +5,7 @@
 	<title>My Form</title>
 	<style type="text/css">
 		body{
-			background: linear-gradient(to right,#000000,#005000);
+			background: linear-gradient(to right,#ffffff,#005000);
 			color: white;
 			font-family: Cooper;
 		}
@@ -34,6 +34,10 @@
 		}
 
 	</style>
+	<script type="text/javascript">
+		var price = document.getElementById('price');
+		alert("Hello"+price.text);
+	</script>
 </head>
 <body>
 		<h1><center>my application</center></h1>
@@ -44,6 +48,9 @@
 			<tr><td><input type="tel" name="telme"></td></tr>
 			<tr><td><input type="url" name="urlMe"></td></tr>
 			<tr><td><input type="number" name="age" id="age" min="5" max="10" step="2"></td></tr>
+			<tr><td><input type="range" name="urlme" id="price" value="200" ><hr>
+				<output id="me"></output>
+			</td></tr>
 			<input type="submit" name="">
 		</table>
 	</form>
