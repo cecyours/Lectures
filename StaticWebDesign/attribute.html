@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function say(me) {
+			// body...
+			alert("bye bye  "+me);
+		}
+	</script>
+</head>
+<body>
+
+		<form>
+			<table>
+				<tr><td>Select any : </td></tr>
+				<tr><td><input type="checkbox" name="a" value="x" onchange="say('are')"> apple</td></tr>
+				<tr><td><input type="checkbox" name="b" value="y" onchange="say(this.value)"> y </td></tr>
+				<tr><td><input type="checkbox" name="c" value="z" onchange="say(this.value)"> z </td></tr>
+				 <tr><td><input type="checkbox" name="d" value="v" onchange="say(this.value)"> r </td></tr>
+
+			</table>
+		</form>
+</body>
+</html>
