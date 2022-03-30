@@ -34,7 +34,7 @@
 		}
 		input,select{
 			font-family: Segoe UI;
-		
+
 			border: 1px white inset;
 			 
 			padding: 4px;
@@ -88,9 +88,19 @@
 				</td> </tr>
 				 </tr>
 
-			<tr><td class="home">password </td><td><input type="password" name="userPass"></td></tr>
 
-
+			<tr><td class="home">State</td><td><input list="states" name="world">
+					<datalist id="states">
+						<option>Gujarat</option>
+						<option>Goa</option>
+						<option>rajsthan</option>
+						<option>Delhi</option>
+					</datalist>
+			</td></tr>
+			
+			<tr><td class="home">password </td><td><input type="password" name="userPass1"></td></tr>
+			<tr><td class="home">confirm password </td><td><input type="password" name="userPass2"></td></tr>
+			<tr><td class="home" colspan="2"><center><input type="submit" name="coder"></td></tr>
 		</table>
 	</fieldset>
 	</form>
