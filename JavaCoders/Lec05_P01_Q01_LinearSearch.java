@@ -14,7 +14,7 @@ class Lec05_P01_Q01_LinearSearch{
 
 		for(i=0;i<n;i++)
 		{
-			System.out.print(" a [ "+di+" ] = ");
+			System.out.print(" a [ "+i+" ] = ");
 			a[i] = sc.nextInt();
 		}
 
