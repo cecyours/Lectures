@@ -16,7 +16,7 @@ class Lec07_P02_namePhone {
 		int index=0;
 		int i;
 		for(i=0;i<n;i++)
-		{
+		{		
 			if(names[i].equalsIgnoreCase(data))
 			{
 				f = true;
