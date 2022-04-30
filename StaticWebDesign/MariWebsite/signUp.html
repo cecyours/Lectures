@@ -6,6 +6,44 @@
 	<link rel="icon"  href="./src/img/PngItem_41572.png">
 	<title>mari website</title>
 	<link rel="stylesheet" type="text/css" href="coder.css">
+	<style>
+			form{
+				padding: 10px;
+				width: 300px;
+				margin-top: 10%;
+				margin-left: 35%;
+			}
+			fieldset{
+				width: 300px;
+				border-radius: 10px;
+				padding: 50px;
+			}
+			td{
+				padding: 10px;
+			}
+			#home{
+				margin-top: 10px;
+				padding: 10px;
+				width: 100px;
+				border-radius: 10px;
+			}
+
+	</style>
+	<script type="text/javascript">
+		function sayMe() {
+			var pass1 = document.getElementById('PassMe1');
+			var pass2 = document.getElementById('PassMe2');
+
+			if(pass1.value!=pass2.value)
+			{
+				alert("password doesn't match");
+			}
+			else
+			{
+				alert("welcome");
+			}
+		}
+	</script>
 </head>
 <body>
 
@@ -18,5 +56,20 @@
 	</nav>
 
 	<h1>Sign Up</h1>
+
+	<form>
+
+		<table>
+
+			<tr><td style="text-align: right;">Name :</td><td><input type="text" name="Phon2" id="userName" required></td></tr>
+			<tr><td style="text-align: right;">Phone :</td><td><input type="tel" name="Phone" required></td></tr>
+			<tr><td style="text-align: right;">Email :</td><td><input type="email" name="email" required></td></tr>
+			<tr><td style="text-align: right;">Password :</td><td><input type="password" id="PassMe1" name="Pass1" required></td></tr>
+			<tr><td style="text-align: right;">Re Password :</td><td><input type="password" id="PassMe2" name="Pass2" required></td></tr>
+			<tr><td colspan="2"><center><input type="submit" name="coder" id="home" onclick="sayMe()"></td></tr>
+				 
+		</table>
+	</form>
+
 </body>
 </html>
