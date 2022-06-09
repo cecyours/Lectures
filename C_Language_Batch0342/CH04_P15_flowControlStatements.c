@@ -1,9 +1,9 @@
 #include<stdio.h>
-
 void display()
 {
 	printf("Hello world\n");
 //	return;
+
 exit(0);
 	
 	printf("Bye bye..\n");
@@ -17,7 +17,7 @@ void main()
 		
 		if(i%2==0)
 		{
-		break;
+//		break;
 			continue;
 		}
 		printf("Hello World : %d\n",i);

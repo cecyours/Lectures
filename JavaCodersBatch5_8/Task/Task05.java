@@ -13,7 +13,7 @@ class Task05  {
 		while(temp>0)
 		{
 			pow++;
-			temp/=10;
+			temp/=10; 
 		}
 		temp=n;
 		while(temp>0)
