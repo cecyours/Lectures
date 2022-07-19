@@ -5,8 +5,8 @@ void increment(int *salary)
 {
 	*salary=*salary+1000;
 	printf("does it works : %d\n",*salary);
-	increment(salary);
-
+	increment(&x);
+	
 }
 int main()
 {

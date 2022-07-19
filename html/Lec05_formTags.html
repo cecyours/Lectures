@@ -6,33 +6,71 @@
 		legend{
 			padding: 10px;	
 		}
+
+		.fields{
+			text-align: right;
+			width: 100px;
+		}
+		form{
+			text-align: center;
+		}
+
+		select,input{
+			width: 200px;
+		}
 	</style>
 </head>
 <body>
 
 	<form method="GET" action="https://www.instagram.com/gk.hell">
+
 		<fieldset>
 			<legend>register Form</legend>
-		<table>
+<center>		<table>
 			
 			<tr>
-				<td>Name : </td>
+				<td class="fields">Name : </td>
 				<td><input type="text" name="userName"></td>
 			</tr>
 
 			<tr>
-				<td>Email : </td>
+				<td class="fields">Email : </td>
 				<td><input type="text" name="userEmail"></td>
 			</tr>
 
+
 			<tr>
-				<td>Password</td>
+				<td class="fields">Gender : </td>
+				<td>
+					<input type="radio" name="gen" value="female" style="width: 10px;">Female
+					<input type="radio" name="gen" value="male" style="width: 10px;">Male
+					<input type="radio" name="gen" value="other" style="width: 10px;">other
+				</td>
+			</tr>
+
+
+			<tr>
+				<td class="fields">Subject : </td>
+				<td>
+					<select>
+						<option>Maths</option>
+						<option>Python</option>
+						<option>Java</option>
+						<option>Html</option>
+						<option>php</option>
+					</select>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td class="fields">Password : </td>
 				<td><input type="password" name="userPassword"></td>
 			</tr>
 			<tr>
 				<td colspan="2"><center><input type="submit" name="userSubmit"></center></td>
 			</tr>
-		</table>
+		</table> </center>
 		</fieldset>
 	</form>
 </body>

@@ -17,5 +17,5 @@ int main()
 	scanf("%d",&x);
 
 	displayTable(x);
-
+ 
 }
