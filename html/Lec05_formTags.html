@@ -14,10 +14,9 @@
 		form{
 			text-align: center;
 		}
-
-		select,input{
-			width: 200px;
-		}
+		select, input{
+			width:200px;
+		} 
 	</style>
 </head>
 <body>
@@ -42,7 +41,7 @@
 			<tr>
 				<td class="fields">Gender : </td>
 				<td>
-					<input type="radio" name="gen" value="female" style="width: 10px;">Female
+		  			<input type="radio" name="gen" value="female" style="width: 10px;">Female
 					<input type="radio" name="gen" value="male" style="width: 10px;">Male
 					<input type="radio" name="gen" value="other" style="width: 10px;">other
 				</td>
@@ -50,24 +49,33 @@
 
 
 			<tr>
-				<td class="fields">Subject : </td>
+				<td class="fields">Distict : </td>
 				<td>
+					
 					<select>
-						<option>Maths</option>
-						<option>Python</option>
-						<option>Java</option>
-						<option>Html</option>
-						<option>php</option>
+						<optgroup label="Gujarat">
+							<option>Ahmedabad</option>
+							<option>Surat</option>
+						</optgroup>
+
+						<optgroup label="Maharastra">	
+								<option>Pune</option>
+								<option>Mumbai</option>
+						</optgroup>
+
+						<optgroup label="Rajsthan">
+							<option>Jaipur</option>
+						</optgroup>
+
+						<optgroup label="Bihar">
+										<option>patna</option>
+						</optgroup>
 					</select>
 				</td>
 			</tr>
 
+			<tr>
 
-			<tr>
-				<td class="fields">Password : </td>
-				<td><input type="password" name="userPassword"></td>
-			</tr>
-			<tr>
 				<td colspan="2"><center><input type="submit" name="userSubmit"></center></td>
 			</tr>
 		</table> </center>

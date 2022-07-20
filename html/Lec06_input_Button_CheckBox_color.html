@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lec06_input_Button_CheckBox_color</title>
+	<link rel="stylesheet" type="text/css" href="./style/main.css">
+	<link rel="stylesheet" type="text/css" href="./style/formStyle.css">
+
+	<style >
+		.coder{
+
+			display: inline;width: 20px;text-align: right;
+		}
+	</style>
+
+	<script type="text/javascript">
+		function print()
+		{
+			var col = document.getElementById('home').value;
+			alert("Hello "+col);
+		}
+	</script>
+</head>
+<body>
+<form>
+	<center>
+	<input type="text" name="userName" placeholder="User Name">
+
+		<table>
+			
+			<tr>
+				<td> <input class="coder" type="checkbox" name="lang" value="hn"> </td>
+				<td>HINDI</td>
+			</tr>
+			<tr>
+				<td> <input class="coder"  type="checkbox" name="lang" value="eng"> </td>
+				<td>ENGLISH</td>
+			</tr>
+			<tr>
+				<td> <input class="coder" type="checkbox" name="lang" value="gu"> </td>
+				<td>GUJARATI</td>
+			</tr>
+
+		</table>
+
+	<input type="color" name="mycolor" id="home" placeholder="choose" >
+	<input type="button" name="submit" value="submit" style="display: inline;" onclick="print()">
+</center>
+</form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+form{
+	width: 300px;
+}
+
+input{
+	text-align: center;
+	width: 200px;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 10px;
+	background: transparent;
+	/*color: blue;*/
+	letter-spacing: 2px;
+	text-shadow: 1px 1px white;
+	display: block;
+}
