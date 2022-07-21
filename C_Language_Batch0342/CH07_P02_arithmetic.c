@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 void sum()
 {
 	int a,b,c; // init 

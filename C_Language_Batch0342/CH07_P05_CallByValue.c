@@ -1,5 +1,3 @@
-
-
 #include<stdio.h>
 
 
@@ -19,4 +17,4 @@ int main()
 
 	printf("new salary : %d\n",salary);
 	return 0;
-}
+}	
