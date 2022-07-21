@@ -42,7 +42,7 @@ class Lec12_P01_revision  {
 
 	 		char ch = s.charAt(x);
  			System.out.println("Character at "+x+" is "+ch);
-
+ 			
  		}
  		catch(Exception e)
  		{
