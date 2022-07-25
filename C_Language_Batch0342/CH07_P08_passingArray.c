@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int n,i;
 int find_max(int a[])
