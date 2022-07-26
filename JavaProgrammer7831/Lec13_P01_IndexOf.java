@@ -31,7 +31,5 @@ class Lec13_P01_IndexOf {
 			System.out.println("invalid query "+query);
 		}
 	
-
-
 	}
 }
