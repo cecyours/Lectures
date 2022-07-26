@@ -11,9 +11,10 @@ int main()
 	printf("c : %u\n",&c);
 
 	printf("pointer a : %u\n",p);
-	p=p-2;
+	p--;
 	printf("pointer b : %u\n",p);
-	// p--;
+	p--;
 	printf("pointer c : %u\n",p);
+	p--;
 
 }
