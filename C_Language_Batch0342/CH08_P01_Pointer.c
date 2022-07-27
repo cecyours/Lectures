@@ -16,6 +16,6 @@ int main()
 
 	printf("----------------\n");
 
-	printf("address : %X\n",p); // address 
+	printf("address : %d\n",p); // address 
 	printf("value : %d\n",*p); // value
 }
