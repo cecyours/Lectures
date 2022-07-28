@@ -1,4 +1,4 @@
-
+	
 #include<stdio.h>
 int main()
 {
@@ -39,5 +39,5 @@ int main()
 		}
 	}
 
-	printf("min : %d\tmax : %d\n",min,max);
-}
+	printf("min : %d\tmax : %d\n",min,max);		
+}	
