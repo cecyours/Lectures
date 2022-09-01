@@ -5,7 +5,7 @@
 	<title></title>
 </head>
 <body>
-	<canvas width="500px" height="300px" id="myCode" style="background: black;">
+	<canvas width="500px" height="280px" id="myCode" style="background: red;">
 		hello
 	</canvas>
 
@@ -37,6 +37,19 @@
 		canvas.fillRect(90,255,20,30);
 
 
+		/*for line*/
+		canvas.strokeStyle ="white";
+		canvas.moveTo(120,50);
+		canvas.lineTo(130,400);
+		canvas.stroke();
+
+		/*circle*/
+		canvas.beginPath();
+		canvas.arc(250,140,110,0,360);
+
+		canvas.font = "50px Hack";
+		canvas.fillText("Hello World",230,140);
+		canvas.stroke();
 	</script>
 </body>
 </html>
