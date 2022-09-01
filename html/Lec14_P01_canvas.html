@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<canvas width="500px" height="300px" id="myCode" style="background: black;">
+		hello
+	</canvas>
+
+	<script type="text/javascript">
+		var obj = document.getElementById('myCode');
+		var canvas = obj.getContext("2d");
+		
+		canvas.fillStyle = "#ffffff";
+
+		canvas.fillRect(20,50,100,400);
+		canvas.fillRect(100,30,10,40);
+
+		canvas.fillRect(40,40,50,20);
+
+		canvas.fillStyle = "#000000";
+		canvas.fillRect(30,80,20,30);
+		canvas.fillRect(30,115,20,30);
+		canvas.fillRect(30,150,20,30);
+		canvas.fillRect(30,185,20,30);
+		canvas.fillRect(30,220,20,30);
+		canvas.fillRect(30,255,20,30);
+
+
+		canvas.fillRect(90,80,20,30);
+		canvas.fillRect(90,115,20,30);
+		canvas.fillRect(90,150,20,30);
+		canvas.fillRect(90,185,20,30);
+		canvas.fillRect(90,220,20,30);
+		canvas.fillRect(90,255,20,30);
+
+
+	</script>
+</body>
+</html>
