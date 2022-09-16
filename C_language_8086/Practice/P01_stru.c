@@ -17,6 +17,7 @@ void sub()
 	printf("%d - %d =%d\n",J,W,J-W);
 }
 int main()
+
 {
 
 	sum();
