@@ -4,19 +4,19 @@
  int main()
 {
 		int a;
-		float c;
-
+		char c;
+/*
 		printf("enter int value : ");
 		scanf("%d",&a);
 
 		printf("int : %d with size %d bytes..",a,sizeof(a));
 
 		printf("\n---------------------------------\n");
+*/
+		printf("enter char value : ");
+		scanf("%c",&c);
 
-		printf("enter float value : ");
-		scanf("%f",&c);
-
-		printf("float : %f with size %d bytes..\n",c,sizeof(c));
+		printf("char : %c with size %d bytes..\n",122,sizeof(c));
 
 
 

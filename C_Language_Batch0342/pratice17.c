@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 struct Student{
 
 	char name[100]; 
@@ -28,6 +27,6 @@ int main()
 	printf("----------------------\n"); 
 	for(i=0;i<n;i++)
 	{
-		printf(" %3d | %s\n",s[i],rollno,s[i].name );
+		printf(" %3d | %s\n",s[i].rollno,s[i].name );
 	}
 }
