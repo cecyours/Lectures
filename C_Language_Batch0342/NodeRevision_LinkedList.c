@@ -1,21 +1,21 @@
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 struct Node{
 
+	int data;
 	char name[100];
 	struct Node *next = NULL;
 }*head = NULL;
 
 
-void insert(char name[])
+void insert(int n)
 {
 	struct Node *newNode,*temp;
 
 	newNode = (struct Node *)malloc(sizeof(struct Node *));
 
-	strcpy(newNode->name,name);
+ 	newNode->data = n;
 
 	if(head==NULL)
 	{

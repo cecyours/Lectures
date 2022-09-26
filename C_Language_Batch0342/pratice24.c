@@ -2,14 +2,15 @@
 #include<stdlib.h>
 struct Node{
 	int data;
-	struct Node	*next = NULL; 
-}*head; 
+	struct Node *next = NULL;
+	
+}*head;
 
 void insert(int n)
 {
-	struct Node *newNode,*temp; 
+	struct Node *nextNode,*temp;
 	newNode = (struct Node*)malloc(sizeof(struct Node));
-	newNode->data = n; 
+	newNode->data = n;
 
 	if(head==NULL)
 	{
@@ -17,10 +18,10 @@ void insert(int n)
 	}
 	else{
 
-		temp = head; 	
+		temp = head;
 		while(temp->next!=NULL)
 		{
-			temp = temp->next; 
+			temp = temp->next;
 		}
 		temp->next = newNode;
 	}
@@ -33,7 +34,7 @@ void search(int n)
 	int f =0;
 	if(head==NULL)
 	{
-		printf("there is no data....\n");
+		printf("There is no data....\n");
 		return;
 	}
 
@@ -44,27 +45,26 @@ void search(int n)
 		if(temp->data==n)
 		{
 			f =1;
-			printf("data found %d\n",n );
+			printf("Data found %d\n",n);
 		}
 		temp = temp->next;
 	}
 	if(f==0){
-		printf("data not found %d\n",n);
+		printf("Data not found %d\n",n);
 	}
-	
 }
 
 
-void delete_me(int n)
+void delete_you(int n)
 {
-	int f = 0; 
-	struct Node *temp; 
+	int f = 0;
+	struct Node *temp;
 
-	temp = head; 
+	temp = head;
 
 	if(head==NULL)
 	{
-		printf("no data found ... stack underflow...\n");
+		printf("No data found ... stack underflow...\n");
 		return;
 	}
 
@@ -72,17 +72,17 @@ void delete_me(int n)
 	{
 		if(temp->next->data==n)
 		{
-			f = 1; 
+			f = 1;
 			printf("im in ..%d,%d\n",n,temp->data );
-			temp->next = temp->next->next; 
-			break; 
+			temp->next = temp->next->next;
+			break;
 		}
-		temp = temp->next; 
-	}	
+		temp = temp->next;
+	}
 
 	if(f=0)
 	{
-		printf("data not found %d ...\n",n);
+		printf("Data not found %d ...\n",n );
 	}
 	else{
 		printf("deleted ....\n");
@@ -90,22 +90,21 @@ void delete_me(int n)
 }
 void display()
 {
-	struct Node *temp; 
+	struct Node *temp;
 
 	if(head==NULL)
 	{
 		printf("There is no data\n");
 
-	} 
-	else {
+	}
+	else{
 		temp = head;
 		while(temp->next!=NULL)
 		{
 			printf("data %d\n",temp->data);
-			temp = temp->next; 
+			temp = temp->next;
 		}
-		printf("data %d\n",temp->data);	
- 	
+		printf("data %d\n",temp->data);
 
 	}
 }
