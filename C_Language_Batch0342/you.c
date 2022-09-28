@@ -2,7 +2,7 @@
 #include<stdlib.h>
 struct Node{
 	int data;
-	struct Node *next = NULL;
+	struct Node	*next = NULL;
 }*head;
 
 void insert(int n)
@@ -16,11 +16,11 @@ void insert(int n)
 		head = newNode;
 	}
 	else{
-		
+
 		temp = head;
 		while(temp->next!=NULL)
 		{
-			temp = temp->next; 
+			temp = temp->next;
 		}
 		temp->next = newNode;
 	}
@@ -38,7 +38,7 @@ void display()
 		temp = head;
 		while(temp->next!=NULL)
 		{
-			printf("Data %d\n",temp->data);
+			printf("DATA %d\n",temp->data);
 			temp = temp->next;
 		}
 		printf("data %d\n",temp->data);
@@ -46,10 +46,9 @@ void display()
 }
 int main()
 {
-	insert(12);
-	insert(13);
-	insert(14);
-	insert(15);
+	insert(90);
+	insert(69);
+	insert(01);
 
 	display();
 }
