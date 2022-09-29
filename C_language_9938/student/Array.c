@@ -6,6 +6,6 @@ int main()
 
 	for (i=0;i<10;i++)
 	{
-		printf("Your rollno %d\n",a[i] );
+		printf("Your rollno %d\n",a[is] );
 	}
 }

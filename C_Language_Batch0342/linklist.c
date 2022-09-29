@@ -110,5 +110,5 @@ int main()
 	insert(14);
 	insert(15);
 delete_me(14);
-	display();
+	display();c
 }
