@@ -16,11 +16,11 @@ void insert(int n)
 		head = newNode;
 	}
 	else{
-		
+
 		temp = head;
 		while(temp->next!=NULL)
 		{
-			temp = temp->next; 
+			temp = temp->next;
 		}
 		temp->next = newNode;
 	}
@@ -31,25 +31,25 @@ void serach(int n)
 
 	int f =0;
 	if(head==NULL)
-	{
-		printf("There is no data....\n");
-		return;
-	}
-
-	temp = head;
-
-	while(temp!=NULL)
-	{
-		if(temp->data==n)
 		{
-			f =1;
-			printf("data is found %d\n",n);
+			printf("There is no data.....\n");
+			return;
 		}
-		temp = temp->next;
-	}
-	if(f==0){
-		printf("data not found %d\n",n);
-	}
+
+		temp = head;
+
+		while(temp!=NULL)
+		{
+			if(temp->data=n)
+			{
+				f =1;
+				printf("Data is found %d\n",n);
+			}
+			temp = temp->next;
+		}
+		if(f==0){
+			printf("data not found %d\n",n);
+		}
 }
 void delete_me(int n)
 {
@@ -59,30 +59,30 @@ void delete_me(int n)
 	temp = head;
 
 	if(head==NULL)
-	{
-		printf("No data is found ... stack underflow...\n");
-		return;
-	}
-
-	while(temp!=NULL)
-	{
-		if(temp->next->data==n)
 		{
-			f =1;
-			printf("im in ..%d,%d\n",n,temp->data);
-			temp->next = temp->next->next;
-			break;
+			printf("No data is found ... stack underflow...\n");
+			return;
 		}
-		temp = temp->next;
-	}
 
-	if(f=0)
-	{
-		printf("Data not found %d ...\n",n);
-	}
-	else{
-		printf("deleted ....\n");
-	}
+		while(temp!=NULL)
+		{
+			if(temp->next->data==n)
+			{
+				f =1;
+				printf("im in ..%d,%d\n",n,temp->data);
+				temp->next = temp->next->next;
+				break;
+			}
+			temp = temp->next;
+		}
+
+		if(f=0)
+		{
+			printf("Data not found %d ...\n",n);
+		}
+		else{
+			printf("delete ....\n");
+		}
 }
 
 void display()
@@ -105,10 +105,12 @@ void display()
 }
 int main()
 {
-	insert(12);
-	insert(13);
-	insert(14);
-	insert(15);
-delete_me(14);
+	insert(10);
+	insert(20);
+	insert(30);
+	insert(40);
+
+	delete_me(30);
+
 	display();
 }
