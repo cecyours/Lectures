@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-	int a[100],i,n,num,f=1;
+	int a[100],i,n,num,f=1;000000000000000
 
 	printf("enter the size: ");
 	scanf("%d",&n);
