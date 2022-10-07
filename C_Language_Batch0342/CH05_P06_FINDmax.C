@@ -18,8 +18,7 @@ int main()
 	
 	printf("------------\n");
 	min=max=a[0];
-	for(i=0;i<n;i++)
-	{
+
 		if(max<a[i])
 		{
 			max = a[i];
@@ -28,6 +27,6 @@ int main()
 		{
 			min = a[i];
 		}
-	}
+	
 	printf("min : %d , max : %d\n",min,max);
 }
