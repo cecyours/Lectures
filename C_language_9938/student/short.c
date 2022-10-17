@@ -22,7 +22,7 @@ Dev x google
 
 int main()
 {
-	char str[100],chTemp,ch;
+	char str[100],chTemp,ch1,ch2;
 	int i,j,len;
 	printf("Enter any string :");
 
@@ -36,14 +36,26 @@ int main()
 
 			for(j=i+1;j<len;j++)
 			{
-				ch  = str[i];
+				ch1  = str[i];
+				ch2  = str[j];
 	 				
-	 				if(str[i]>str[j])
+					if(str[i]>='a' && str[i]<='z')
+					{
+						ch1-=32;
+					}
+					if(str[j]>='a' && str[j]<='z')
+					{
+						ch2-=32;
+					}
+
+
+	 				if(ch1>ch2)
 	 				{
 	 					chTemp = str[i];
 						str[i] = str[j];
 						str[j] = chTemp;
 	 				}
+
 
 
 		 
