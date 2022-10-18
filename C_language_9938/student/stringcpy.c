@@ -13,6 +13,6 @@ int main()
 	strcpy(str2,str1);
 
 	printf("str1 :'%s'\n",str1);
-	printf("\ncopy str1\n\n");
+	printf("\ncopy str1\nc\n");
 	printf("str2 :'%s'\n",str2);
 }

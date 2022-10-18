@@ -10,7 +10,7 @@ int main()
 	printf("Enter your string : ");
 	scanf("%s",str1);
 
- 	// strcpy(str2,str1); // str2 = str1
+ 	strcpy(str2,str1); // str2 = str1
 
  	printf("str 1: %s\n",str1);
  	printf("str 2: %s\n",str2);
