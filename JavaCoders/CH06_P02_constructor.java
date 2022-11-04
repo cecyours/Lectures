@@ -7,8 +7,7 @@ class CH06_P02_constructor  {
 		Task t3 = new Task();
 		Task t4 = new Task(8,9,8+9); //?
 		//t.display();
-  
-		Task t3 = new Task();
+   
 	}
 }
 
