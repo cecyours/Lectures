@@ -2,10 +2,10 @@
 class CH06_P02_constructor  {
 	public static void main(String[] args) {
 		 
-		new Task("SUMIT"); //t3
-		new Task(20);//t2
-		new Task();
-		new Task(8,9,8+9); //?
+		Task t1 = new Task("SUMIT"); //t3
+		Task t2 = new Task(20);//t2
+		Task t3 = new Task();
+		Task t4 = new Task(8,9,8+9); //?
 		//t.display();
   
 		Task t3 = new Task();
