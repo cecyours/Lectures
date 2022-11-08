@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background: linear-gradient(to right,#008811,#552288);
+		}
+		#coder{
+			width: 400px;
+			height: 400px;
+			background: #001166;
+		}
+
+
+	</style>
+</head>
+    <script type="text/javascript">
+    	function changeme()
+    	{
+    		var kya = document.getElementById("coder")
+    		kya.style.background= "#222555";
+    		kya.style.border="blue solid 100px"
+    	}
+    	function changecode()
+         {
+         	var okay = document.getElementById("coder")
+         	okay.style.background = "#448877";
+         }   	
+ 
+    	
+    </script>
+	
+
+<body>
+	<div id="coder" onmouseover="changeme()" onmouseout="changecode()">
+		
+	</div>
+
+</body>
+</html>
