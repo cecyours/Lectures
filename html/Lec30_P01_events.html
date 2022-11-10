@@ -32,7 +32,7 @@
 		{
 			var div = document.getElementById("coder");
 			div.style.background = "#ef00ff";
-			div.style.border= "red solid	100px"
+			div.style.border= "red solid 100px"
 		}
 
 		function changeProgrammer()
@@ -40,10 +40,22 @@
 			var div = document.getElementById("coder");
 			div.style.background = "#8ff888";
 		}
+
+		function onKeyDown(){
+			var div = document.getElementById("coder");
+			div.style.background = "red";
+		}
+
+		function onKeyUp()
+		{
+			var div = document.getElementById("coder");
+			div.style.background = "green";
+		}
 	</script>
 </head>
 <body>
 
+	<input type="text" onkeydown="onKeyDown()" onkeyup="onKeyUp()">
 	<select onchange="me(this)">
 			<option>Riya</option>
 			<option>SHIvu</option>
