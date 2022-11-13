@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function checkpassword()
+		{
+			var password = document.getElementById('userpass');
+			if(password.value.length>8)
+			{
+				password.style.color="green";
+
+			}
+			else{
+				password.style.color="red";
+			}
+		} 	
+		function checkLogin()
+		{
+			var user = document.getElementById("userName").value;
+			var password = document.getElementById("userpass").value;
+
+			if(user=="GopalSir" && password=="Khadush Sir") 
+			{
+				alert("humble as Down to earth")
+			}
+			else
+			{
+				alert("jhukega Nahi");
+			}
+		}
+
+		
+	</script>
+</head>
+<body>
+	<form>
+		<table>
+			<tr><td> user Name: </td><td> <input type="text" id="userName"></td></tr>
+			<tr><td> password:</td> <td> <input type="text" id="userpass" oninput="checkpassword()"></td></tr>
+			<tr><td colspan="2"><center><button onclick="checkLogin()"> 
+			SUBMIT</button></center></td></tr>
+		</table>
+	</form>
+
+</body>
+</html>
