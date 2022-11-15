@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+ 
+ 	<script type="text/javascript">
+ 		
+ 		$("document").ready(function(){
+ 			
+ 			$("#btnAdd").click(function(){
+ 				var x = $("#userName").val()
+ 				var y = "<li>"+x+"</li>";
+
+ 				$("#collection").append(x);
+ 			});
+ 		});
+
+ 	</script>
+</head>
+<body>
+	<input type="text" id="userName">
+	<button id="btnAdd">ADD</button>
+	<div  id="collection"></div>
+
+</body>
+</html>
