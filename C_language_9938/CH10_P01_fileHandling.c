@@ -27,7 +27,7 @@ int main()
 	fseek(fp,0,0);
 	while((ch = fgetc(fp))!=EOF)
 	{
-		printf(" %c",ch);
+		printf(" %c ",ch);
 	}
 	fclose(fp);
 }

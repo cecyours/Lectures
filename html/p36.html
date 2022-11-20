@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.me{
+			background: purple;
+			color: white;
+			text-shadow: 1px 2px red;
+		}
+		#li{
+			background: blue;
+			color: white;
+		}
+		
+	</style>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		
+		$("document").ready(function(){
+			$(".me").hover(function(){
+
+				 $(this).css({"background":"black"});
+				$(this).animate({
+					width:'200px'
+				});
+			});
+			/*for ID*/
+			$("document").ready(function(){
+				$("#li").hover(function(){
+					$(this).css({"background":" red"});
+					$(this).animate({
+						width:'150px'
+					});
+				});
+			});
+		});		
+
+
+	</script>
+</head>
+<body>
+	<h1 class="me">This is the best computer class...</h1>
+	<h2 id="li">Laxmi Sharma....</h2>
+
+</body>
+</html>
