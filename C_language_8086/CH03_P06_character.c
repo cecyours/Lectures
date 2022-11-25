@@ -31,7 +31,7 @@ char ch;
 	printf("Enter Your Character :" );
 	scanf("%c" ,&ch);
 
-	if(!(ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
+	if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
 	{
 		printf("alphabet\n");
 	}
