@@ -1,0 +1,42 @@
+*{
+	font-family: Poor Richard;
+}
+body{
+	background: green;
+	color: white;
+}
+
+nav{
+	background: #000050;
+	padding: 10px;
+	width: 100%;
+	margin-left: -10px;
+}
+nav > li{
+	display: inline;
+	margin-left: 20px;
+	border-radius: 4px;
+	padding: 10px;
+	padding-left: 20px;
+}
+p{
+	border-left: 2px red solid;
+	padding-left: 10px;
+	text-indent: 50px;
+}
+nav > li:hover{
+	background: #dd3500;
+	border-radius: 4px;
+
+}
+
+nav > li > a{
+	text-decoration: none;
+	color: white;
+}
+
+input{
+	border-radius: 3px;
+	background: transparent;
+	color: white;
+}

@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function onFocus(){
+			document.body.style.background = "red";
+		}
+
+		function onBlur()
+		{
+			document.body.style.background = "green";
+
+		}
+
+		function onSubmit()
+		{
+			var d = document.getElementById("userName").value;
+			alert("welcome "+d);
+		}
+	</script>
+</head>
+<body>
+	<form onsubmit="onSubmit()">
+		<input type="text"  id="userName" name="" onfocus="onFocus()" onblur="onBlur()">
+		<button type="submit">go</button>
+	</form>
+</body>
+</html>

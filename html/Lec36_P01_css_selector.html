@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+		.me{
+			background: red;
+		}
+	</style>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<script type="text/javascript">
+			
+		$("document").ready(function(){
+
+			$(".me").hover(function(){
+
+					$(this).css({"background":"blue"});
+					$(this).animate({
+						width:'100px'
+					});
+			});
+		});
+
+	</script>
+</head>
+<body>
+	<h1 class='me'>Hello World</h1>
+</body>
+</html>

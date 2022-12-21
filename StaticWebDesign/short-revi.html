@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my work</title>
+	<style type="text/css">
+		
+	</style>
+	<script type="text/javascript">
+		
+		function vish(){
+
+			var x = document.getElementById('price');
+			var y = document.getElementById('result');
+
+			y.value = x.value;
+			alert("click"+ y.value);
+
+
+		} 
+	</script>
+</head>
+<body>
+	<h1><center>timepass</center></h1>
+	
+	<form>
+	<table>
+
+	<hr><tr><td>First Name : </td><td><input type="text" name="First Name"></td></tr>
+	<tr><td> Middal Name:</td><td><input type="text" name="middal Name"></td></tr>
+	<tr><td>Last Name: </td><td><input type="text" name=" Last Name"></td></tr>
+	<tr><td>Address: </td><td><input type="Address" name="Address"></td></tr>
+	<tr><td> Dob : </td><td><input type="Address" name="Address"></td></tr>
+	<tr><td>Address: </td><td><input type="Address" name="Address"></td></tr>
+
+
+	</table>
+		<input type="range" id="price" min="1" max="1000" >
+		<input type="text" id="result">
+		<button onclick="vish()">click</button>
+	</form>
+
+</body>
+</html>

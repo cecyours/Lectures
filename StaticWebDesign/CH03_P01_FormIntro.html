@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+	<title>Hello Form</title>
+	<style type="text/css">
+		body{
+
+				background: linear-gradient(to right,#000000,#000050);
+			color: white;
+			font-family: cooper;
+		}
+		input,td{
+			padding: 10px;
+		}
+		td{
+			width: 200px;
+			font-size: 20px;
+		}
+		.home{
+			text-align: right;
+		}
+		input{
+			border-radius: 10px;
+				background: transparent;
+			color: white;
+		}
+		/*h1{
+			border:10px red outset;
+		}*/
+	</style>
+</head>
+<!-- 
+#000000 : black
+#FF00FF : white
+ -->
+<body>
+	<h1>Shivnya application <span style="color:blue;text-shadow:1px 1px white;">login</span> Form</h1>
+	<form method="GET" action="https://www.instagram.com/gk.hell">
+
+		<!-- <input type="text" name="UserName">
+		<input type="password" name="UserPassword">
+		<input type="submit" name="submit" value="login"> -->	
+		
+		<table>
+			<tr><td class="home">User Name : </td><td><input type="text" name="UserName"></td></tr>
+			<tr><td class="home">User Password : </td><td><input type="password" name="UserPassword"></td></tr>
+			<tr><td colspan="2"><center><input type="submit" name="submit" value="login" style="width: 100px;"></td></tr>
+		</table>
+	</form>
+</body>
+</html>

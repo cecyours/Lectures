@@ -1,0 +1,13 @@
+
+body{
+	background: linear-gradient(to left,#505050,#000000 );
+}
+div{
+	font-family: Script MT;
+	background: white;
+	font-size: 50px;
+	padding: 3px;
+	border-radius:10px;
+	text-align: center;
+	margin: 5px                                                                                                                                  ;
+}

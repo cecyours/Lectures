@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animation</title>
+	<style type="text/css">
+		
+		#myAni{
+			background: red;
+			height: 100px;
+			width: 100px;
+			animation-name: taskme;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		@keyframes taskme{
+			from{width: 0px;background: white;border-radius: 0px;}
+			to{width: 100%;background: black;border-radius: 100px;}
+
+		}
+	</style>
+</head>
+<body>
+	<div id="myAni">
+	</div>
+</body>
+</html>

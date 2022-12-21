@@ -1,0 +1,35 @@
+#include<stdio.h>
+int n,i;
+int find_max(int a[])
+{
+	int max = a[0];
+
+	for(i=0;i<n;i++)
+	{
+		if(a[i]>max)
+		{
+			max  = a[i];
+		}
+	}
+
+	return max;
+}
+int main()
+{
+	int a[100];
+	int max_ans;
+
+	printf("Enter the size : ");
+	scanf("%d",&n);
+
+	printf("Enter the array : \n");
+	for(i=0;i<n;i++)
+	{
+		printf("Enter a[%d] : ", i);
+		scanf("%d",&a[i]); //data
+	}
+
+	max_ans = find_max(a);
+
+	printf("max : %d\n",max_ans);
+}

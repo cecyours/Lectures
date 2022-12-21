@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+		<canvas style="border:1px red solid;" id="you">
+			
+		</canvas>
+
+		<script type="text/javascript">
+			var coder = document.getElementById('you');
+			var draw = coder.getContext("2d");
+
+			// draw.fillRect(10,10,100,70);
+			// draw.rect(8,8,120,120);
+			// draw.stroke();
+
+
+			var grd = draw.createLinearGradient(0, 0, 200, 0);
+			grd.addColorStop(0, "purple");
+			grd.addColorStop(1, "white");
+
+
+			draw.fillStyle = grd;
+			draw.fillRect(10, 10, 150, 80);
+
+		</script>
+</body>
+</html>

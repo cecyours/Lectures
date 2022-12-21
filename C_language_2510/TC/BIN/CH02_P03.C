@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+       unsigned	int float_=35000;
+      long double num = 3987.23934;
+
+clrscr();
+
+	printf("new NUmber : %u\n",float_);
+	printf("num : %Lf\n",num);
+
+
+
+getch();
+}

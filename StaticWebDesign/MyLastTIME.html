@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VS</title>
+	<link rel="icon"  href="C:\Users\you\Downloads\gd.jpg">
+	<style type="text/css">
+		body{
+			background: black;
+			color: white;
+		}
+		h1{
+			animation-name: myCode;
+			animation-duration: 1s;
+
+		}
+		@keyframes myCode{
+			 0%{opacity: 0;letter-spacing: 1px}
+			25%{opacity: 0.4;letter-spacing: 3px}
+			50%{opacity: 0.5;letter-spacing: 4px}
+			75%{opacity: 0.8;letter-spacing: 5px}
+			100%{opacity: 1;letter-spacing: 7px}
+		}
+		/*-------------*/
+		div{
+			width: 100px;
+			height: 100px;
+			background: white;
+			position: relative;
+			animation-name: myHell;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+
+		}
+		@keyframes myHell{
+		 	 0%{left:0px;top:0px;transform: rotate(0deg);border-radius: 0%}
+			25%{left:1000px;top:0px;transform: rotate(45deg);border-radius: 25%;}
+			50%{left:1000px;top:400px;transform: rotate(90deg);border-radius: 50%;}
+		    75%{left:0px;top:400px;transform: rotate(135deg);border-radius: 75%;}
+		   100%{left: 0px;top: 0px;transform: rotate(160deg);border-radius: 100%;}
+		}
+	</style>
+</head>
+<body>
+
+	<h1>What ever you want !!</h1>
+	<div></div>
+</body>
+</html>
