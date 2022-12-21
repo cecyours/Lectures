@@ -1,3 +1,0 @@
-gk
-yash
-pradip
