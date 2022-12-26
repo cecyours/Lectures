@@ -2,36 +2,34 @@
 int main()
 {
 	int a[10][10][10];
-	int z,x,c;
-	int q,w,e;
-	int counter = 0;
+	int z,x,d;
+	int e,b,c;
+	int countr = 0;
 
-	printf("Enter q-w-e ;");
-	scanf("%d-%d-%d",&q,&w,&e);
+	printf("Enter a-b-c ;");
+	scanf("%d-%d-%d",&e,&b,&c);
 
-	for(z=0;z<q;z++)
+	for(z=0;z<e;z++)
 	{
-		for(x=0;x<w;x++)
+		for(x=0;x<b;x++)
 			{
-				for(c=0;c<e;c++)
+				for(d=0;d<c;d++)
 				{
-								a[z][x][c] = ++counter;
+								a[z][x][d] = ++countr;
 				}
 			}
 	}
-	printf("---------------------------\n");
+	printf("======================================\n");
 
 
-	for(z=0;z<q;z++)
+	for(z=0;z<e;z++)
 	{
-		for(x=0;x<w;x++)
+		for(x=0;x<b;x++)
 			{
-				for(c=0;c<e;c++)
+				for(d=0;d<c;d++)
 				{
 					{
-								printf("%3d",a[z][c][x
-
-						]);
+								printf("%3d",a[z][d][x]);
 					}
 					
 				}

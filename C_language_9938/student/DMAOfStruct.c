@@ -11,7 +11,7 @@ int main()
 	struct person *ptr;
 	int i,n;
 
-	printf("Enter the number of persons : \n");
+	printf("Enter The Number Of Persons : \n");
 	scanf("%d",&n);
 
 	ptr = (struct person*)malloc(n * sizeof(struct person));
@@ -26,5 +26,5 @@ int main()
 
 	printf("Displaying Information : \n");
 	for(i = 0; i < n; ++i)
-		printf("Name : %s\tAge : %d\n",(ptr+i)->name,(ptr+i)->age);
+		printf("NAME : %s\tAGE : %d\n",(ptr+i)->name,(ptr+i)->age);
 }
