@@ -2,8 +2,7 @@
 int main()
 {
     int start,end,i,n,j;
-
-    printf("Enter start end : ");
+    printf("Enter start,end : ");
     scanf("%d,%d",&start,&end);
 
     for(i=start;i<=end;i++)
@@ -13,7 +12,10 @@ int main()
         {
             printf("%2d x %2d = %2d\n",n,j,n*j);
         }
-        printf("\n----------------\n\n");
+        printf("\n-----------------\n\n");
     }
     return 0;
+
+
+
 }
