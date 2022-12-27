@@ -1,22 +1,22 @@
 #include<stdio.h>
 int main()
 {
+    int a=10;
 
-    int a,b;
+    a += 30;// a = a+30
+    printf("your number %d after +=\n : ",a);//40
 
-            printf("enter 2 number = ");
-            scanf("%d,%d",&a,&b);
+    a -=15;// a = a-15
+    printf("your number %d after -=\n : ",a);//25
 
-            printf("%d > %d : %d\n",a,b,a>b);
-            printf("%d < %d : %d\n",a,b,a<b);
-            printf("%d >=%d : %d\n",a,b,a>=b);
-            printf("%d <=%d : %d\n",a,b,a<=b);
-            printf("%d !=%d : %d\n",a,b,a!=b);
-            printf("%d ==%d : %d\n",a,b,a==b);
+    a *=3;// a = a*3
+    printf("your number %d after *=\n : ",a);//75
 
-            return(0);
+    a /=2;// a = a/2
+    printf("your number %d after /=\n : ",a);//37
 
+    a %=3;// a = a%3
+    printf("your number %d after %=\n : ",a);//1
 
-
-
+    return 0;
 }
