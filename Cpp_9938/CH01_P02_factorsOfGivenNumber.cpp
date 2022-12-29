@@ -10,7 +10,7 @@ int main()
 
     int temp = num;
 
-        int factor = 1;
+        int factor = 2;
     while(temp>1)
     {
         is_prime = true;
@@ -26,18 +26,16 @@ int main()
 
         if(is_prime)
         {
-            if(temp%factor==0)
+            while(temp%factor==0)
             {
                 temp = temp/factor;
                 if(temp!=1)
                  cout<<factor<<"x";
                 else
-                 cout<<factor<<".";
+                 cout<<factor<<"x1.";
             }
         
-        
-        
-        
+               
         }
                 factor++;
         

@@ -31,7 +31,7 @@ int main()
                 if(temp!=1)
                     cout<<factor<<" X ";
                 else
-                    cout<<factor<<" X 1.";
+                    cout<<factor<<" X sa1.";
             }
         }
 
