@@ -11,7 +11,7 @@ int main()
 
         for(i=start;i<=end;i++)
         {
-            cout<<" ------ "<<i<<" -- -----"<<endl;
+            cout<<"------"<<i<<"-------"<<endl;
             int n = i;
             for(j=1;j<=10;j++)
             {
