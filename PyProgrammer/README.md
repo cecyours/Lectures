@@ -31,3 +31,21 @@ program that structure the view.
 Examples
 
 > xml, html, markdown
+
+
+### IDE for python
+
+Itegrated development Environment
+
+> normal way to run program
+
+Text editor -> run(compiler/intepreter)
+
+
+> IDE
+
+TextEditor + run
+
+
+
+
