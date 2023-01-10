@@ -201,6 +201,7 @@
 ```
 - [ ]  Privacy in python with access specifiers
 10. Inheritance & Polymorphism
+
 - [ ]  super class & base class
 - [ ]  Inheritance
 ```
