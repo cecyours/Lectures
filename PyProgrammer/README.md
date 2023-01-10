@@ -127,15 +127,21 @@ TextEditor + run
 
 ```
 - [ ]  Iteration control statement
+```
     - for loop
     - while
     - else clause with for & while loop
+```
 - [ ]  flow control statements
+
+```
     - break
     - continue
     - return
     - exit
     - Pass statement
+```
+
 5. String
 - [ ]  String
 - [ ]  ways to define a string
