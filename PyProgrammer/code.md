@@ -264,31 +264,19 @@
 - [ ]  Text File & binary File
 - [ ]  file modes
 ```
-    - r
-    - b
-    - a
-    - r+
-    - w+
-    - a+
-    - rb
-    - wb
-    - ab
-    - rb+
-    - wb+
-    - ab+
+    - r     - b     - a
+    - r+    - w+    - a+
+    - rb    - wb    - ab
+    - rb+   - wb+   - ab+
 ```
 - [ ]  file operation
 ```
-    - create
-    - open
-    - close
-    - write
-    - read
-    - append
+    - create    - remove        
+    - open      - close 
+    - write     - read     - append    
     - tell
     - seek
     - rename
-    - remove
 ```
 - [ ]  Working with directories
 ```
