@@ -62,9 +62,8 @@ TextEditor + run
 - [ ]  using text editor
 - [ ]  Innards of Python
 - [ ]  Python Interpreter
-- [ ] Byte Code 
-- [ ] program
-- [ ] execution
+- [ ]  Byte Code 
+- [ ]  program execution
 - [ ]  Comparison of Python
 - [ ]  java
 - [ ]  c++
