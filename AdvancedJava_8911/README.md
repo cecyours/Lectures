@@ -3,11 +3,11 @@
  
 > Oops
 
- - [ ] Class & Objects
- - [ ] Constructos
- - [ ] Inheritance
- - [ ] Polymorphism
- - [ ] Abtract & encapulation
+ - [x] Class & Objects
+ - [x] Constructos
+ - [x] Inheritance
+ - [x] Polymorphism
+ - [x] Abtract & encapulation
 
 > Java Networking
 - [ ] Network Basics and Socket overview
