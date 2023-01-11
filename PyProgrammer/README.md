@@ -51,25 +51,28 @@ TextEditor + run
 
 
 > ----------------------------------
+
 > 1. __Introduction to Python__
-- [ ]  Python Overview
+- [x]  Python Overview
 - [ ]  History
-- [ ]  versions of Python
+- [x]  versions of Python
 - [ ]  Features of Python
-- [ ]  installing Python
-- [ ]  Create first program in Python
-- [ ]  using shell scripting 
-- [ ]  using text editor
+- [x]  installing Python
+- [x]  Create first program in Python
+- [x]  using shell scripting 
+- [x]  using text editor
 - [ ]  Innards of Python
-- [ ]  Python Interpreter
-- [ ]  Byte Code 
-- [ ]  program execution
-- [ ]  Comparison of Python
-- [ ]  java
-- [ ]  c++
-- [ ]  JavaScript
-- [ ]  Perl
-2. Dawn with Core
+- [x]  Python Interpreter
+- [x]  Byte Code 
+- [x]  program execution
+- [x]  Comparison of Python
+```
+    -  java
+    -  c++
+    -  JavaScript
+    -  Perl
+```
+> 2. Dawn with Core
 - [ ]  Comments
 - [ ]  Variables
 - [ ]  Data Types
@@ -104,7 +107,7 @@ TextEditor + run
 - [ ]  pip
 - [ ]  clrprint module
 
-3. Operators & Operands
+> 3. Operators & Operands
 - [ ]  Operators & Operands
 - [ ]  Types of Operators
 - [ ]  Arithmetic
