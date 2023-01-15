@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int num;
+clrscr();
+	printf("Enter the number : ");
+	scanf("%d",&num);
+
+	if(num<0) // if number is less than zero then it must be -ve
+	{
+		num*=-1; // num = num * -1;
+		/*
+			to convert -ve to +ve, multiply the number with -1
+		*/
+	}
+getch();
+}

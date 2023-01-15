@@ -1,0 +1,13 @@
+
+// this is a program to find mul of two number. // document section
+
+
+void main()
+{
+
+    clrscr();
+
+	printf("Hello Avi !");
+
+       getch();
+}

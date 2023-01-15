@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i;
+	char name[100];
+		clrscr();
+		printf("Enter your name:");
+		//scanf("%s",name);
+		gets(name);
+		printf("welcome %s\n",name);
+		for(i = 0;name[i]!=NULL;i++)
+
+		{       textattr(i+1);
+			cprintf(" %c",name [i]);
+
+
+		}
+
+
+
+
+
+
+
+
+
+	getch();
+}
