@@ -73,10 +73,10 @@ TextEditor + run
     -  Perl
 ```
 > 2. Dawn with Core
-- [ ]  Comments
-- [ ]  Variables
-- [ ]  Data Types
-- [ ]  Numeric Data Type
+- [x]  Comments
+- [x]  Variables
+- [x]  Data Types
+- [x]  Numeric Data Type
 
 ```
 
@@ -85,11 +85,11 @@ TextEditor + run
     - complex
 
 ```
-- [ ]  Boolean Data Type
+- [x]  Boolean Data Type
 ``` 
     - boolean
 ```
-- [ ]  Compound Data Type
+- [x]  Compound Data Type
 ```
     - string
     - list
@@ -97,7 +97,7 @@ TextEditor + run
     - Dictionaries
     - set
 ```
-- [ ]  keywords
+- [x]  keywords
 - [ ]  Print & input function
 - [ ]  Type casting
 ```
