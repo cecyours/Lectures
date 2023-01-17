@@ -61,3 +61,35 @@ void display(int a[])
         cout<<" a [ "<<i<<" ] = "<<a[i]<<endl;
     }
 }
+
+int  reverse_number(int n)
+{
+    int rem,rev=0;
+
+    while(n>0)
+    {
+        rem = n%10;
+        rev = rev*10+rem;
+        n/=10;
+    }
+    return rev;
+}
+
+
+void display_pallondrom(int a[])
+{
+    int i;
+    for(i=0;i<n;i++)
+    {
+        bool is_pallon=reverse_number(a[i])==a[i];
+
+        if(is_pallon)
+            {
+                cout<<" a[ "<<i<<" ] = "<<a[i]<<"\t "<<reverse_number(a[i])<<"\t is pallondrom"<<endl;
+            }
+            else{
+                cout<<" a[ "<<i<<" ] = "<<a[i]<<"\t "<<reverse_number(a[i])<<endl;
+
+            }
+    }
+}
