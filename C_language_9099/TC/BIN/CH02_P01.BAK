@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	enum day {mon,tue,wed,thurs,fri,sat,sun};
+
+clrscr();
+
+getch();
+}
