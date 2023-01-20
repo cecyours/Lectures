@@ -110,12 +110,15 @@ TextEditor + run
 > 3. Operators & Operands
 - [x]  Operators & Operands
 - [x]  Types of Operators
+
+```
     -  Arithmetic
     -  Relational
     -  Logical
-    - Bitwise   
-    - Assignment
-    - Membership,Identity
+    -  Bitwise   
+    -  Assignment
+    -  Membership,Identity
+ ```
 - [ ]  Precedence & associativity
 4. Control statements
 - [ ]  Boolean values
