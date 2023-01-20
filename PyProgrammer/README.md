@@ -98,24 +98,24 @@ TextEditor + run
     - set
 ```
 - [x]  keywords
-- [ ]  Print & input function
-- [ ]  Type casting
+- [x]  Print & input function
+- [x]  Type casting
 ```
     - implicit
     - explicit
 ```
-- [ ]  pip
-- [ ]  clrprint module
+- [x]  pip
+- [x]  clrprint module
 
 > 3. Operators & Operands
-- [ ]  Operators & Operands
-- [ ]  Types of Operators
-- [ ]  Arithmetic
-- [ ]  Relational
-- [ ]  Logical
-- [ ]  Bitwise
-- [ ]  Assignment
-- [ ]  Membership,Identity
+- [x]  Operators & Operands
+- [x]  Types of Operators
+    -  Arithmetic
+    -  Relational
+    -  Logical
+    - Bitwise   
+    - Assignment
+    - Membership,Identity
 - [ ]  Precedence & associativity
 4. Control statements
 - [ ]  Boolean values
