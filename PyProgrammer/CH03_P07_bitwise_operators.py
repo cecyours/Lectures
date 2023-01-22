@@ -44,18 +44,18 @@ a = 4
 b = 2
 
 # Bitwise left shift : <<
-# c = a^2*b
-# c = 2^2*4
+# c = a*2^b
+# c = 4*2^2
 # c = 4*4
-# c = 16 
+# c = 16
 
 #
 c = a<<b
 print(a,"<<",b,"=",c)
 
 # Bitwise right shift : >>
-# c = a^2/b
-# c = 2^2/4
+# c = a/2^b
+# c = 4/2^2
 # c = 4/4
 # c = 1 
 
