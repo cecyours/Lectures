@@ -30,6 +30,6 @@ void main()
     display("Jigar");
     display("Suraj");
     display("Vaibhav");
-
+    
     result("Sumit",35);
 }
