@@ -14,8 +14,6 @@ print("----------------------")
 
 fruits = {"Apple":199,"Banana":900,"Mango":199,"Cherry":100}
 
-
-
 if x in fruits.keys():
     print(x,"is available .. give me $",fruits[x]);
 
