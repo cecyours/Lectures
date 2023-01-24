@@ -1,25 +1,15 @@
-//union
 #include<stdio.h>
 #include<conio.h>
 
-union Student{
-	int rollNo;
-	char div;
-};
-
+void display(int a) // define...
+{
+	printf("Hello World ... %d\n",a);
+}
 void main()
 {
-	 union Student s;
 clrscr();
-	    printf("Enter your div : ");
-	    scanf("%c",&s.div);
-	    printf("div : %c\n",s.div);
-
-	    flushall();
-
-	    printf("Enter your rollno : ");
-	    scanf("%d",&s.rollNo);
-	    printf("rollno : %d",s.rollNo);
-
+	display(10);// calling function
+	display(20);
+	display(19);
 getch();
 }

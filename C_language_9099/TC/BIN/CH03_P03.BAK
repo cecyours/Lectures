@@ -13,7 +13,7 @@ clrscr();
 	 }
 	 else
 	 {
-		printf("Both are different")j uj;
+		printf("Both are different");
 	 }
 
 getch();
