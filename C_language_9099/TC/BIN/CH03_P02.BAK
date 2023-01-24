@@ -10,7 +10,7 @@ clrscr();
 	printf("Enter 2 numbers : ");
 	scanf("%d,%d",&a,&b);
 
-	printf("%d > %d = %d\n",a,b,a>b); // 0 -> false, 1->true
+	printf("%d > %d = %d\n",a,b,a>b); // 0 xrxr-> false, 1->true
 
 	if(a>b)
 	{
