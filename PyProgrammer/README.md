@@ -131,13 +131,13 @@ TextEditor + run
         - nested if statement
 
 ```
-- [ ]  Iteration control statement
+- [x]  Iteration control statement
 ```
     - for loop
     - while
     - else clause with for & while loop
 ```
-- [ ]  flow control statements
+- [x]  flow control statements
 
 ```
     - break
