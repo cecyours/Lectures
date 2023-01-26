@@ -11,7 +11,7 @@ SQL : Structured Query language.
 display all databases of host(machine/server)
 
 ``` mysql
-SHOW DATABASES;
+show DATABASES;
 ```
 
 2. USE DATABASE_NAME;
