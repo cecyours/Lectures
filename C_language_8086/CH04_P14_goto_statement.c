@@ -3,7 +3,7 @@
 int main()
 {
     int i=0;
-
+    
     printf("line 1\n");
     printf("line 2\n");
     printf("line 3\n");
@@ -11,7 +11,7 @@ int main()
     home:
     printf("\tline 4\n");
     printf("\tline 5\n");
-    printf("\tline 6- %d\n",i+1);
+    printf("\tline 6- %d\n",i+1 );
     i++;
     if (i<10)
     {
