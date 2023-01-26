@@ -34,4 +34,5 @@ print(s,s[2:],sep=" | ")
 # from last string
 print(s,s[-5],sep=" | ")
 
-# reverse 
+# reverse string
+print(s,s[4::-1],sep=" | ")
