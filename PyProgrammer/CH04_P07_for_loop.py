@@ -1,18 +1,18 @@
 
-# # start-end-step
-# for i in range(2,100,2):
-#     print(i,end=" ")
+# start-end-step
+for i in range(2,100,2):
+    print(i,end=" ")
 
 
-# data = ["Apple","Banana","Cherry","Mango"]
+data = ["Apple","Banana","Cherry","Mango"]
 
-# print()
-# for i in data:
-#     for j in i:
-#         print(j,end=" ")
-#     print()
+print()
+for i in data:
+    for j in i:
+        print(j,end=" ")
+    print()
 
-# print("----------------")
+print("----------------")
 
 x = int(input("Enter your number : "))
 
