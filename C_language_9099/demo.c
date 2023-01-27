@@ -1,18 +1,32 @@
 #include<stdio.h>
-
-/**
- * \t : tab
- * \n : new line
- * \f : form feed
- * \r : reset the line
- * \" : double quate
-*/
-
-int main()
+void main()
 {
-    printf("123\n4567890");
-    printf("1234\f567890");
-    printf("hello \"aalam\"");
-     printf("hell\ro aalam");
+
+    int a,b;
+    char ch;
+
+    printf("enter expression :"); // like 2+4, a=2, ch = +,b+4
+    scanf("%d%c%d",&a,&ch,&b);
+
+    switch(ch)
+    {
+     
+        case'+':
+        printf("%d + %d = %d\n",a,b,a+b);break;
+    
+           case'-':
+        printf("%d - %d = %d\n",a,b,a-b);break; 
+
+           case'*':
+        printf("%d * %d = %d\n",a,b,a*b);break;
+
+           case'/':
+        printf("%d / %d = %d\n",a,b,a/b);break;
+
+           case'%':
+        printf("%d %% %d = %d\n",a,b,a%b);break;   
+
+    }
+
 
 }
