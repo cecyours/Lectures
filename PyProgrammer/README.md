@@ -119,10 +119,10 @@ TextEditor + run
     -  Assignment
     -  Membership,Identity
  ```
-- [ ]  Precedence & associativity
+- [x]  Precedence & associativity
 4. Control statements
-- [ ]  Boolean values
-- [ ]  Decision statements
+- [x]  Boolean values
+- [x]  Decision statements
 
 ```
         - if statement
