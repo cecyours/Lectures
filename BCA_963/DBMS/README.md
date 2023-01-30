@@ -79,7 +79,7 @@ used to display all data of given table
 
 ```
     SELECT * FROM Student;
-``
+```
 
 10. SELECT columns,,, FROM TABLE_NAME
 
@@ -103,8 +103,10 @@ used to get specific columns with specific conditions..
     SELECT rollNO from Student WHERE marks>33
 ```
 
-13 SELECT * FROM TABLE LIKE pattern
+13. SELECT * FROM TABLE LIKE pattern
+
 used to get data where matched pattern
+
 ```
     SELECT * FROM Student WHERE name LIKE 'A%'
 ```
