@@ -1,0 +1,523 @@
+{
+    "110002": [
+        "[",
+        {
+            "Name": "Minto Road",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Baroda House",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Bengali Market",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Bhagat Singh Market",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Connaught Place",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Constitution House",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Election Commission",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Janpath",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Krishi Bhawan",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Lady Harding Medical College",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "New Delhi ",
+            "Description": "",
+            "BranchType": "Head Post Office",
+            "DeliveryStatus": "Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "New Delhi",
+            "Division": "New Delhi GPO",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "North Avenue",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Parliament House",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Patiala House",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Pragati Maidan",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Pragati Maidan Camp",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Rail Bhawan",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Sansad Marg",
+            "Description": "",
+            "BranchType": "Head Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Sansadiya Soudh",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Secretariat North",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Shastri Bhawan",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110001": [
+        "[",
+        {
+            "Name": "Supreme Court",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110002": [
+        "[",
+        {
+            "Name": "A.G.C.R.",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110002": [
+        "[",
+        {
+            "Name": "Ajmeri Gate Extn.",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110002": [
+        "[",
+        {
+            "Name": "Darya Ganj",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110002": [
+        "[",
+        {
+            "Name": "Gandhi Smarak Nidhi",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110002": [
+        "[",
+        {
+            "Name": "I.P.Estate",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110002": [
+        "[",
+        {
+            "Name": "Indraprastha",
+            "Description": "",
+            "BranchType": "Head Post Office",
+            "DeliveryStatus": "Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}{
+    "110002": [
+        "[",
+        {
+            "Name": "Minto Road",
+            "Description": "",
+            "BranchType": "Sub Post Office",
+            "DeliveryStatus": "Non-Delivery",
+            "Taluk": "New Delhi",
+            "Circle": "New Delhi",
+            "District": "Central Delhi",
+            "Division": "New Delhi Central",
+            "Region": "Delhi",
+            "State": "Delhi",
+            "Country": "India"
+        },
+        "]"
+    ]
+}
