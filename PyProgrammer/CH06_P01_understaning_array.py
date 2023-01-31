@@ -22,4 +22,4 @@ for i in range(x):
     a.append(data)
 
 
-print(a)
+print(a,max(a),min(a))
