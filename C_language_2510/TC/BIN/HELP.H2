@@ -1,0 +1,8 @@
+void display()
+
+{  textattr(19);
+
+
+
+
+}
