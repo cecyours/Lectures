@@ -17,7 +17,7 @@ int main()
     // getc();
     int opr;
     do{
-        cout<<"\n\n\t *****Select any operation from the calculator***** \n\n"<<endl
+        cout<<"\n\n\t *****Select Any Operation From The Calculator***** \n\n"<<endl
         <<"\t\t\t1 = addition"<<endl
         <<"\t\t\t2 = subtraction"<<endl
         <<"\t\t\t3 = multiplication"<<endl
