@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 void main()
+<<<<<<< HEAD
 {
 
 	int a,b;
@@ -23,4 +24,13 @@ void main()
  getch();
 
 
+=======
+
+{
+clrscr();
+	 printf("hello world.\n");
+	 printf("how are u?\ " );
+
+getch();
+>>>>>>> 94dc86a7132377787d275031d6e15f84116d95d2
 }

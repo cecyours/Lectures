@@ -119,10 +119,10 @@ TextEditor + run
     -  Assignment
     -  Membership,Identity
  ```
-- [ ]  Precedence & associativity
+- [x]  Precedence & associativity
 4. Control statements
-- [ ]  Boolean values
-- [ ]  Decision statements
+- [x]  Boolean values
+- [x]  Decision statements
 
 ```
         - if statement
@@ -131,13 +131,13 @@ TextEditor + run
         - nested if statement
 
 ```
-- [ ]  Iteration control statement
+- [x]  Iteration control statement
 ```
     - for loop
     - while
     - else clause with for & while loop
 ```
-- [ ]  flow control statements
+- [x]  flow control statements
 
 ```
     - break
