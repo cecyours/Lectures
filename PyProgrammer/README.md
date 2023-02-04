@@ -148,18 +148,18 @@ TextEditor + run
 ```
 
 5. String
-- [ ]  String
-- [ ]  ways to define a string
-- [ ]  accessing & slicing string
-- [ ]  immutable string
-- [ ]  string methods
-- [ ]  string formatting using
+- [x]  String
+- [x]  ways to define a string
+- [x]  accessing & slicing string
+- [x]  immutable string
+- [x]  string methods
+- [x]  string formatting using
   ```
       - % operator
       - format()
    ```
-- [ ]  string operations
-- [ ]  string module
+- [x]  string operations
+- [x]  string module
 ```
     - constants 
     - methods 
@@ -168,8 +168,8 @@ TextEditor + run
 
 6. Array
 
-- [ ] Array
-- [ ]  array with Array Module
+- [x] Array
+- [x]  array with Array Module
 ```
     - import in array
     - declare array
