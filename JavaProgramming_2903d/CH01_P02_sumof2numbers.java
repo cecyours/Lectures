@@ -6,6 +6,6 @@ public class CH01_P02_sumof2numbers {
         int c;
 
         c = a+b;
-        System.out.println(a+"+"+b+"="+c);
+        System.out.p rintln(a+"+"+b+"="+c);
     }
 }
