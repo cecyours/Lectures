@@ -3,17 +3,17 @@ int main()
 {
     float marks;
 
-    printf("Enter the marks : ");
+    printf("enter the marks :");
     scanf("%f",&marks);
-
 
     if(marks>=33 && marks<=100)
     {
-        printf("passed"5X/);
+        printf("passed");
+
     }
     else
     {
-        printf("Failed..");
+        printf("failed..");
     }
-    return 0;
+    return(0);
 }

@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int ch;
+
+    pritnf("do you want to exit : ");
+    scanf("%c",&ch);
+
+    if(ch=='y'|| ch=='Y')
+    {
+        printf("exit...");
+        exit(0);
+    }
+    pritnf("welcome..");
+
+}
