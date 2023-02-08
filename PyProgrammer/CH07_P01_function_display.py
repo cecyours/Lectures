@@ -7,7 +7,7 @@ def display():
     """
     print("Hello Rupesh.. ")
 
-def partion():
+def partition():
     """
     never i was you !!
     """
@@ -15,17 +15,17 @@ def partion():
 
 
 display()
-partion()
+partition()
 display()
 
-partion()
+partition()
 print(display.__doc__)
 
 x = print.__doc__
 
 print(x)
 
-print(partion.__doc__)
+print(partition.__doc__)
 
 
 import random as r
