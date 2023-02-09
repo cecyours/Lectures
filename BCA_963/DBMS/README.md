@@ -110,4 +110,21 @@ used to get data where matched pattern
 ```
     SELECT * FROM Student WHERE name LIKE 'A%'
 ```
+14. DESC TABLE_NAME;
 
+used to get details about table
+
+```
+    DESC Student;
+```
+
+15. ALTER TABLE TABLE_NAME;
+
+used to change/modified structure of table
+
+```
+    - ALTER TABLE Student drop marks; // used to delete the columns
+    - ALTER TABLE Student add mark float(3); //used to add the columns
+```
+
+16
