@@ -1,32 +1,20 @@
 #include<stdio.h>
 void main()
 {
-    int a,b;
-    char ch;
 
-    printf("enter expression : ");
-    scanf("%d%c%d",&a,&ch,&b);
+    int num;
 
-    switch(ch)
+    printf("enter the number : ");
+    scanf("%d",&num);
+
+    if(!(num==200))
     {
-
-        case '+':
-        printf("%d + %d = %d\n",a,b,a+b);break;
-
-        case '-':
-        printf("%d - %d = %d\n",a,b,a-b);break;
-
-        case '*':
-        printf("%d * %d = %d\n",a,b,a*b);
-
-        case '/':
-        printf("%d / %d = %d\n",a,b,a/b);
-
-        case '%':
-        printf("%d %% %d = %d\n",a,b,a/b);
-
+        printf("welcome...");
 
     }
-
+    else
+    {
+        printf("by by...");
+    }
 
 }

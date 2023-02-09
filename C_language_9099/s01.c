@@ -1,24 +1,25 @@
 #include<stdio.h>
-void  main()
+void main()
 {
-    int a,b,c;
 
-    printf("enter 2 number :");
-    scanf("%d,%d",&a,&b);
+    char ch;
 
-    c = a+b;
-    printf("%d + %d = %d\n",a,b,c);
+    printf("enter the character : ");
+    scanf("%c",&ch);
 
-    c = a-b;
-    printf("%d - %d = %d\n",a,b,c);
+    if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
+    {
 
-    c= a*b;
-    printf("%d * %d = %d\n",a,b,c);
+        printf("letter alphabet...");
 
-    c= a/b;
-    printf("%d / %d = %d\n",a,b,c);
 
-    c= a%b;
-    printf("%d %% %d = %d\n",a,b,c);
+    }
+    else
+    {
+        printf("other symbol..");
+    }
+    
+        
 
+    
 }

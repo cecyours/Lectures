@@ -9,7 +9,7 @@ int main()
 
     if(marks>=33 && marks<=100)
     {
-        printf("passed"5X/);
+        printf("passed");
     }
     else
     {
