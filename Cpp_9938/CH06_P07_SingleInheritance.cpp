@@ -3,9 +3,9 @@
 // protected : child class
 //    public : every where
 
-#include<iosream>
+#include<iostream>
 using namespace std;
 
 class A{
-    
+
 }
