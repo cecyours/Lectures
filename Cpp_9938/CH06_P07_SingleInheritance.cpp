@@ -8,4 +8,27 @@ using namespace std;
 
 class A{
 
+    public:
+    
+    void display()
+    {
+        cout<<"I am A ";
+    }
+};
+
+class B : public A
+{   
+    public:
+    
+    void display_()
+    {
+        cout<<"I am B";
+    }
+};
+
+int main()
+{
+    B b;
+
+    b.display();
 }
