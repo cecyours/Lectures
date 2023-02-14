@@ -1,19 +1,17 @@
 #include<stdio.h>
-void main()
+int main()
 {
-    int a,b;
+    int a = 14;
+    int b = 6;
+    int c;
 
-    printf("enter 2 number : ");
-    scanf("%d,%d",&a,&b);
+    c = a&b;
+    printf("%d & %d = %d\n",a,b,c);
 
-    if(a>b)
-    {
-        printf("%d is max",a);
 
-    }
-    else
-    {
-        printf("%d is max",b);
-    }
+    c = a|b;
+    printf("%d | %d = %d\n",a,b,c);
 
+
+    return 0;
 }

@@ -1,25 +1,42 @@
+
 #include<stdio.h>
-void main()
+
+        /* function declarations */
+        int max(int num1, int num2);
+        int min(int num1, int num2);    
+    
+
+int main()
 {
+    int num1, num2, maximum, minimum;
 
-    char ch;
+    /* input two number from user */
+    printf("enter two number : ");
+    scanf("%d,%d",&num1,&num2);
 
-    printf("enter the character : ");
-    scanf("%c",&ch);
+    maximum = max(num1,num2);   // call maximum function 
+    minimum = min(num1, num2);  // call minimum function
 
-    if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
-    {
+    printf("\nmaximum = %d\n",maximum);
+    printf("minimum = %d",minimum);
 
-        printf("letter alphabet...");
-
-
-    }
-    else
-    {
-        printf("other symbol..");
-    }
-    
-        
-
-    
+    return 0;
 }
+
+    /**
+     * find maximum between two numbers.
+    */
+    int max(int num1, int num2)
+    {
+        return(num1 > num2 ) ? num1 : num2;
+    }
+
+    /**
+     * find minimum between two numbers.
+    */
+   int min(int num1, int num2)
+   {
+        return( num1 >  num2) ? num2 : num1;
+
+   }
+

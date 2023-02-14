@@ -1,20 +1,24 @@
-#include<stdio.h>
-void main()
+#include <stdio.h>
+
+int main()
 {
 
-    int num;
+    int a = 10;
 
-    printf("enter the number : ");
-    scanf("%d",&num);
+    a += 7;
+    printf("new value after += %d\n", a);
 
-    if(!(num==200))
-    {
-        printf("welcome...");
+    a -= 5;
+    printf("new value after -= %d\n", a);
 
-    }
-    else
-    {
-        printf("by by...");
-    }
+    a *= 4;
+    printf("new value after *= %d\n", a);
 
+    a /= 5;
+    printf("new value after /= %d\n", a);
+
+    a %= 2;
+    printf("new value after %%= %d\n", a);
+
+    return 0;
 }

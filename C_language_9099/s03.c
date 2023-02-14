@@ -1,33 +1,16 @@
 #include<stdio.h>
-void main()
-{
-    int a,b;
-    char ch;
+ int main()
+ {
+    int a = 20;
+    
+    int *p;
 
+    printf("%d at adress : %p = %u\n",a,&a,&a);
 
-    printf("enter expression : ");
-    scanf("%d%c%d",&a,&ch,&b);
-
-    switch(ch)
-    {
-
-        case'+':
-        printf("%d + %d = %d\n",a,b,a+b);break;
-
-        case'-':
-        printf("%d - %d =%d\n",a,b,a-b);break;
-
-        case'*':
-        printf("%d * %d = %d\n",a,b,a*b);break;
-
-        case'/':
-        printf("%d / %d = %d\n",a,b,a/b);break;
-
-        case'%':
-        printf("%d %% %d =%d\n",a,b,a%b);break;
-
-    }
+    p = &a;
+    printf("%d at adress : %p %u\n",*p,p,p);
 
 
 
-}
+
+ }
