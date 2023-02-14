@@ -1,0 +1,30 @@
+.test{
+    /* white-space: nowrap; */
+    /* line-height: 90%; */
+    /* direction: ltr; */
+}
+.box{
+    border: 1px solid #ff4500;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    /* padding-left: 100px; */
+    /* padding-right: 50px; */
+    /* padding: 20px 20px 50px 100px; */
+    /*        T     B    R    L */
+
+}
+.hello{
+    list-style: lower-roman;
+}
+.jai-ho{
+    padding-left: 500px;
+    list-style-image: url(dp.jpeg);
+}
+img {
+    position: absolute;
+    left: 0px;
+    /* top: 50px; */
+    /* margin-top: 50px; */
+    z-index: 1;
+    opacity: 1;
+  }

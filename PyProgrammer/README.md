@@ -178,7 +178,7 @@ TextEditor + run
     - Array methods
 
 ```
-- [ ]  array with numpy
+- [x]  array with numpy
 ```
     - import numpy
     - declare array
@@ -186,21 +186,21 @@ TextEditor + run
     - advance indexing & slicing
     - Array operation
 ```
-- [ ]  Numpy array vs array
+- [x]  Numpy array vs array
 7. functions
-- [ ]  Function
-- [ ]  function header & body part
-- [ ]  function call
-- [ ]  return statement
-- [ ]  function parameter & arguments
+- [x]  Function
+- [x]  function header & body part
+- [x]  function call
+- [x]  return statement
+- [x]  function parameter & arguments
 ```
     - formal parameter & actual argument
     - default argument
     - keyword argument  
     - arbitrary argument
 ```
-- [ ]  Anonymous / lambda function
-- [ ]  scope of Varible
+- [x]  Anonymous / lambda function
+- [x]  scope of Variable
 ```
     - local 
     - global
