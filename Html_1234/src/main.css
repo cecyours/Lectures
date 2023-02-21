@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(to right, #000000, #303030);
+    color: whitesmoke;
+}
+
+div {
+    font-size: 20px;
+}
+
+.properties {
+    border-radius: 10px;
+    padding: 10px;
+    background: #222222;
+}
+
+span {
+    color: blue;
+}
+
+h2 {
+    text-shadow: 1px 1px burlywood;
+    letter-spacing: 5px;
+}
