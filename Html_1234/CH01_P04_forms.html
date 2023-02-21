@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+
+    <script>
+
+        function hell()
+        {
+
+            var color = document.getElementById('clr');
+
+            var b  = document.getElementById('world');
+            b.style.background = color.value;
+            // alert();
+        }
+        </script>
+</head>
+<body id="world">
+    <form method="POST">
+        <input type="text" name="userName">
+        <input type="color" name="password" id="clr" oninput="hell()">
+        <input type="submit" value="Go">
+    </form>
+</body>
+</html>

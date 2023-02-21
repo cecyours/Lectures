@@ -1,0 +1,35 @@
+/* .sanji{ */
+    /* width: 500px; */
+     /* border: 1px solid #ff4500; */
+    /* word-wrap: break-all; */ 
+
+    /* writing-mode: vertical-lr; */
+
+
+    /* transform: translate(60px, 95px); */
+    /* transform: rotate(325deg); */
+    /* transform: scale(4,10); */
+    /* transform: skewX(100deg); */
+    /* transform: skewY(10deg); */
+
+    /* width: 100px;
+    height: 50px;
+    background: greenyellow;
+    transition: width 3s; */
+/* } */
+/* .sanji:hover{
+    width: 1000px;
+} */
+/* @keyframes preeti {
+    from{top: 0px;}
+    to{top: 100px;}
+}
+.sanji{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    /* animation-name: preeti; */
+    /* position: relative; */
+    /* animation-duration: 10s; */
+    /* animation: preeti 10s infinite; */
+/* }  */

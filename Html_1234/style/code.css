@@ -1,0 +1,15 @@
+
+body{
+    /* background:#043955; */
+    background: linear-gradient(to right,#043955,#053352);
+    color:whitesmoke;
+}
+
+h1{
+    color: red;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px black;
+    border-radius: 10px;
+    border-left: 2px red dashed;
+    padding-left: 20px;
+}
