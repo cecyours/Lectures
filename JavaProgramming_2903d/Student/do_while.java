@@ -5,9 +5,9 @@ public class do_while
         int i = 5;
         do
         {
-            System.out.println(i);
+            System.out.println("the number is=" +i );
             i++;
         }
-        while(i>10);
+        while(i<10);
     }
 }
