@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  * Servlet implementation class MyServlet
@@ -38,6 +39,15 @@ public class MyServlet extends HttpServlet {
 		
 		if(password.equals(confirmpassword))
 		{
+			
+			// to store details in session
+			
+			HttpSession session = req.getSession();
+			
+			session.setAttribute("fullname", fullname);
+			session.setAttribute("email", email);
+			
+			
 			
 			//redirect
 			RequestDispatcher reqd = req.getRequestDispatcher("ValidUser");
