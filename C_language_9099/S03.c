@@ -10,7 +10,7 @@ int main()
 
     if(month==1)
     {
-        printf("")
+        printf("january");
     }
 
 
