@@ -31,7 +31,7 @@ int main()
                     case 21 ... 30:printf("vivo");break;
                     default : printf("invalid rollNo");
                 };break;
-                default:printf("invalid div..");
+                default:printf("invalid div..   ");
     
     }
 
