@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Login And Registrayion Form - Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+
+        <div class="body">
+            <div class="form-box">
+            </div>
+                <div class="button-box">
+                    
+                    
+
+                    <div class="social-icons">
+                        <img src="facebook.png">
+                        <img src="g1.png">
+                        <img src="twitter.png">
+                    </div>
+<!-- 
+                    <form class="login">
+                        <input type="text" class="input-field" placeholder="User Id" required>
+                        <input type="text" class="input-field" placeholder="Enter Password" required>
+                        <input type="checkbox" class="check-box"><span>Rememeber Password</span>
+                        <button type="submit" class="submit-btn">Log in</button>
+                        
+                    </form> -->
+
+                    <form id="login" class="input-group">
+                        <input type="text" class="input-field" placeholder="User Id" required>
+                        <input type="text" class="input-field" placeholder="Enter Password" required>
+                        <input type="checkbox" class="check-box"><span>Rememeber Password</span>
+                        <button type="submit" class="submit-btn">Log in</button>
+                        
+                    </form>
+
+                    <form id="register" class="input-group">
+                        <input type="text" class="input-field" placeholder="User Id" required>
+                        <input type="email" class="input-field" placeholder="Email Id" required>
+                        <input type="text" class="input-field" placeholder="Enter Password" required>
+                        <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                        <button type="submit" class="submit-btn">Register</button>
+                        
+                    </form>
+
+                    <div id="btn"></div>
+                        <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                        <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                        
+                    </div>
+            </div>
+            
+        </div>
+    </div>
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("register");
+            var z = document.getElementById("btn");
+
+            function register()
+            {   
+                x.style.display = "none";
+                x.style.left = "-400px"
+                y.style.left = "50px"
+                y.style.display = "block"
+                z.style.left = "110px"
+            }
+            function login()
+            {
+                y.style.display = "none"
+                x.style.display = "block";
+
+                x.style.left = "50px"
+                y.style.left = "450px"
+                z.style.left = "0px"
+            }
+
+
+
+
+        </script>
+
+    </body>
+</html>
