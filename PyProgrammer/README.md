@@ -205,12 +205,12 @@ TextEditor + run
     - local 
     - global
 ```
-- [ ]  Recursion
+- [x]  Recursion
 ```
     - base case in recusion
     - advantage & disadvantages
 ```
-- [ ]  Modules
+- [x]  Modules
 ```
     - creating used-defined module
     - importing modules
@@ -219,22 +219,22 @@ TextEditor + run
 
 ```
 8. Data collection
-- [ ]  Understanding data collection
-- [ ]  list
+- [x]  Understanding data collection
+- [x]  list
 ```
     - list indexing & slicing
     - list operation
     - list methods
     - list mutable
 ```
-- [ ]  tuple
+- [x]  tuple
 ```
     - tuple indexing & slicing
     - tuple operation
     - tuple method
     - tuple immutable
 ```
-- [ ]  Set
+- [x]  Set
 ```
     - set indexing & slicing
     - set operation
@@ -242,16 +242,16 @@ TextEditor + run
     - set mutable
 ```
 
-- [ ]  Dictionary
+- [x]  Dictionary
 ```
     - dictionary indexing & slicing
     - dictionary operation
     - dictionary method
     - dictionary mutable
 ```
-- [ ]  aliasing & cloning
-- [ ]  data collection with in another collection
-- [ ]  data structure using data collection
+- [x]  aliasing & cloning
+- [x]  data collection with in another collection
+- [x]  data structure using data collection
 9. OOP with Python
 - [ ]  OOP
 - [ ]  class & object
