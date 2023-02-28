@@ -13,8 +13,6 @@ class Task:
 
 obj1 = Task("Rupesh")
 obj2 = Task("Krishna")
-
-
 del obj1 # manual delete
 input("i am waiting..")
 
