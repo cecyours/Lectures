@@ -18,3 +18,11 @@ b = B()
 
 c.display()
 b.display()
+
+
+""" 
+    A->B->C
+    E->D->C
+    C->E
+
+ """
