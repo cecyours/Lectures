@@ -39,7 +39,7 @@ h1{
     font-family: hack;
     font-size: 18px;
 }
-input{
+input,select,textarea{
   
         font-size: 20px;
         background: transparent;
@@ -53,6 +53,9 @@ input{
     box-sizing: border-box;
 }
 
+select{
+    color:red;
+}
 button{
     font-size: 20px;
     background: transparent;
