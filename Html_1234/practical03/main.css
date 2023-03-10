@@ -1,0 +1,40 @@
+body{
+    background-color: azure;
+}
+
+div{
+    border-radius: 50%;
+    margin: 5px;
+    background: red;
+    height:100px;
+    width: 100px;
+
+    animation-name: kick;
+    animation-duration: 2s;
+    position: relative;
+animation-direction: alternate;
+
+    animation-iteration-count: infinite;
+}
+
+#tag1{
+    animation-timing-function:ease-in;
+}
+
+#tag2{
+    animation-timing-function:ease-out;
+}
+#tag3{
+    animation-timing-function:ease-in-out;
+}
+#tag4{
+    animation-timing-function:linear;
+}
+#tag5{
+    animation-timing-function:step-start;
+}
+
+@keyframes kick {
+    0%{left:0}
+    100%{left:95%}
+}
