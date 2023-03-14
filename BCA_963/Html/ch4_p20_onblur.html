@@ -1,0 +1,124 @@
+ <!DCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .error{
+            font-size: 16px;
+            color: red;
+        }
+        </style>
+        <script>
+        function validate()
+        {
+            var no;
+            no=document.getElementById("no").value;
+            if(no=="")
+            {
+                document.getElementById("no").style="border-color:red";
+                document.getElementById("nomsg").innerHTML="please enter only digits"
+                return false;
+            }
+            if(!Number(no))
+            {
+            document.getElementById("nomsg").innerHTML="please enter digits";
+            return false;
+            }
+            else
+            {
+                document.getElementById("nomsg").innerHTML="";
+            }
+            var no2;
+            no2=document.getElementById("no2").value;
+            if(no2=="")
+            {
+                document.getElementById("no2").style="border-color:red";
+                document.getElementById("nomsg2").innerHTML="Please enter no2";
+                return false;
+            }
+            if(!Number(no2))
+            {
+                document.getElementById("nomsg").innerHTML="please enter only digit";
+                return false;
+            }
+            else
+            {
+                document.getElementById("nomsg2").innerHTML="";
+            }
+        }
+
+
+        function calc()
+        {
+            var ans;
+            var no;
+            no=document.getElementById("no").value;
+            if(no=="")
+            {
+                document.getElementById("no").style="border-color:red";
+                document.getElementById("nomsg").innerHTML="please enter no1";
+                return false;
+            }
+            if(!Number(no))
+            {
+                document.getElementById("nomsg").innerHTML="please enter only digits";
+                return false;
+            }
+            else
+            {
+                document.getElementById("nomsg").innerHTMl="";
+            }
+
+            var no2;
+            no2=document.getElementById("no2").value;
+            if(no2=="")
+            {
+                document.getElementById("no2").style="border-color:red";
+                document.getElementById("nomsg2").innerHTML="please enter n02";
+                return false;
+            }
+            if(!Number(no2))
+            {
+                document.getElementById("nomsg2").innerHTML="please enter only digits";
+                return false;
+            }
+            else
+            {
+                document.getElementById("nomsg2").innerHTML="";
+            }
+            ans=parseInt(no)+parseInt(no2);
+            document.getElementById("ans").innerHTML=ans;
+            return false;
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+<!--    <input type="text" id="num1" onblur="return(validate())"><br>
+        <span id="nomsg1" class="error"></span><br>
+
+        <input type="text" id="num2" onblur="return(validate())"><br>
+        <span id="nomsg2" class="error"></span><br>
+
+        <input type="submit" value="calc" onclick="return(calc())">
+        <span id="ans"></span>
+    <script src="ch4_p20_onblur.js"></script>-->
+
+
+    <!-- <form action="" method="post" name="frml"> -->
+        Number1:
+        <input type="text" name="no" id="no" onblur="return(validate())"><br>
+        <span id="nomsg" class="error"></span><br>
+
+     Number2:
+        <input type="text" name="no2" id="no2" onblur="return(validate())" ><br>
+        <span id="nomsg2" class="error"></span><br>
+
+        <input type="submit" name="submit" value="calc" onclick="return(calc())">
+        <span id="ans"></span>
+
+    <!-- </form> -->
+</body>
+</html> 

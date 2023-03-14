@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error
+        {
+            font-size:16px;
+            color:red;
+        }
+       </style>
+       <script>
+        function calc()
+        {
+            var ans=1;
+            var no;
+            var i;
+            no=document.getElementById("no").value;
+            if(no=="")
+            {
+                document.getElementById("no").style="border-color:red";
+                document.getElementById("nomsg").innerHTML="please enter no1";
+                return false;
+            }
+            if(!Number(no))
+            {
+                document.getELementById("nomsg").innerHTML="please enter only digit";
+                return false;
+            }
+            else
+            {
+                document.getElementById("nomsg").innerHTML="";
+                for(i=parseInt(no);i>=1;i--)
+                {
+                    ans=ans*i;
+                }
+            }
+            document.getELementById("ans").innerHTML="factorial="+ans;
+            return false;
+        }
+       </script>
+</head>
+<body>
+    <form action="./" method="post" name="frm1" onsubmit="return(calc())">
+        Number1;<input type="text" name="no" id="no">
+        <br>
+        <span id="nomsg" class="error"></span>
+        <br>
+        <input type="submit" name="submit" value="calc">
+        <span id="ans" style="font-size:18px;color:chartreuse">Factorial=</span>
+
+    </form>
+</body>
+</html>
