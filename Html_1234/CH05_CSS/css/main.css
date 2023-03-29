@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+
+}
+body{
+    background-color:black;
+    
+}
+
+div
+{
+    
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    border-radius: 50%;
+    /* border: 4px white dashed; */
+    background-clip:  padding-box;
+
+    background: url("/src/r.jpg") rgba(50,50,50,0);
+    opacity: 0.5;
+    background-size: cover;
+    -webkit-filter: blur(0px);
+    background-blend-mode: darken;
+}
+
+span{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    font-size: 30px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* -webkit-filter: none; */
+  z-index: 10;
+  opacity: 1;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

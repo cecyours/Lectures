@@ -1,0 +1,33 @@
+
+.section{
+
+    background-color: red;
+    width:100px;
+    height:100px;
+    animation-name: sumit_shivam;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes sumit_shivam {
+ 
+    from{
+            background:blue;
+            border-radius: 0px;
+             color:white;
+        }
+
+    to{
+        background:white;
+        border-radius: 50%;
+       
+        color:red;
+    }
+}
+
+h1{
+    transform: translate(15%, 70%);
+}
+

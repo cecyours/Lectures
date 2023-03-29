@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-duration: 1s;
+    animation-name: kites;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes kites{
+    0%{left:0;top:0}
+    25%{left:90%;top:0;height: 300px;}
+    50%{left:90%;top:400px}
+    75%{left:0%;top:400px;height: 0;}
+    100%{left:0%;top:0}
+}
