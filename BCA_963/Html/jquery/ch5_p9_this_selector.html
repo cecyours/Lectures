@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <title>Document</title>
+    <script>
+        $(document).ready(function()
+        {
+            $("img").mouseup(function()
+            {
+                $(this).animate({marginLeft:"20px",width:"250px",height:"250px"});
+            })
+            $("img").mouseenter(function()
+            {
+                $(this).animate({width:"150px",height:"150px"});
+            })
+        })
+    </script>
+</head>
+<body>
+        <img src="../1968-chevrolet-nova.jpeg" alt="sun_image" height="150px" width="150px">
+        <img src="../dp.jpeg" alt="moon_image" height="150px" width="150px">
+        <img src="../mahadev.gif" alt="flowers_image" height="150px" width="150px">
+        <img src="../border.png" alt="sky_image" height="150px" width="150px">
+        <img src="../1968-chevrolet-nova.jpeg" alt="star_image" height="150px" width="150px">
+</body>
+</html>
