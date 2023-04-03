@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <title>Document</title>
+    <script>
+        $(document).ready(function()
+        {
+            $("div").mouseenter(function()
+            {
+                $("[type]").animate({fontSize:"20px",paddingRight:"30px"});
+                $("p[align]").css({"color":"red","fontsize":"50px"});
+                $('img[alt="sun_image"]').hide(2000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div>MOve Here
+    <img src="../1968-chevrolet-nova.jpeg" alt="sun_image" height="200px" width="200px">
+        <img src="../dp.jpeg" alt="moon_image" height="200px" width="200px">
+        <img src="../mahadev.gif" alt="flowers_image" height="200px" width="200px">
+        <img src="../border.png" alt="sky_image" height="200px" width="200px">
+        <img src="../1968-chevrolet-nova.jpeg" alt="star_image" height="200px" width="200px">
+        <p>Sun image will hide because i define img alt with value sun image.$('img[alt="sun_image"]')</p>
+        <p>Paragraph 2 is not affected </p>
+        <p align="right">Div tag with right</p>
+        <ol type="a">
+                <li>Microsoft</li>
+                <li>Facebook</li>    
+                <li>Google</li>
+                <li>Apple</li>
+                <li>Wiprow</li>
+        </ol>
+    </div>  
+</body>
+</html>
