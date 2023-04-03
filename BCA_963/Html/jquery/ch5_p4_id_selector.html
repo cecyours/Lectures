@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <title>Document</title>
+    <script>
+        $(document).ready(function()
+        {
+            $("#link1").click(function()
+            {
+                $("#img").hide(5000);
+            });
+            $("#link2").mouseup(function()
+            {
+                $("#img").show(5000);
+            });
+
+        })
+    </script>
+</head>
+<body>
+    <img src="../dp.jpeg" alt="" id="img">
+    <br>
+    <a href="#1234567890" id="link1">Hide image</a>
+    <a href="#qwertyuiop" id="link2">Show image</a>
+
+</body>
+</html>
