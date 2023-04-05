@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <title>Document</title>
+    <script>
+        $(document).ready(function()
+        {
+            $("#ok").click(function()
+            {
+                $("#moon_image").toggle(5000);
+            })
+        })
+    </script>
+</head>
+<body>
+        <img src="../1968-chevrolet-nova.jpeg" id="sun_image" height="150px" width="150px">
+        <img src="../dp.jpeg" id="moon_image" height="150px" width="150px">
+        <img src="../mahadev.gif" id="flowers_image" height="150px" width="150px">
+        <img src="../border.png" id="sky_image" height="150px" width="150px">
+        <img src="../1968-chevrolet-nova.jpeg" id="star_image" height="150px" width="150px">
+
+        <button id="ok">ok</button>
+</body>
+</html>
