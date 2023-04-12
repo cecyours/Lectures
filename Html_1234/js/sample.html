@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script>
+            function sayHello()
+            {
+                var h1 = document.getElementById("home");
+                var num = document.getElementById("number").value
+
+                
+                h1.innerHTML = "Heenu"
+                // alert("Hello World.");
+
+                var d = "";
+                var data = document.getElementById("data")
+
+                // data.style.background = "red";
+                if (num=="")
+                {
+                    num =  1;
+                }
+                var i;
+                var n = num;
+                for(i=1;i<=10;i++)
+                {
+                    x = n+" x "+i+" = "+(i*n)
+
+                    d +=x+"<br>";
+                    // alert("Hello "+i);
+                }
+                data.innerHTML = d;
+            }
+        </script>
+    </head>
+
+<body>
+    <section style="margin: 100px;">
+
+        <input type="number" class="form-control" id="number">
+        <h1 id="home">Hello World</h1>
+
+        <button class="btn btn-primary" onclick="sayHello()">
+            Click me
+        </button>
+
+        <p id="data" style="margin:55px">
+
+        </p>
+    </section>
+</body>
+
+</html>
