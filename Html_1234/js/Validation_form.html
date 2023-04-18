@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .form-control {
+            margin: 10px;
+        }
+    </style>
+    <title>kites</title>
+    <script>
+        function valid() {
+            var username = document.getElementById("username").value
+            var userpass = document.getElementById("password").value
+
+            if (username == "") {
+                document.getElementById("msg").innerHTML = "please enter the user name";
+                return false;
+            }
+            else if (userpass == "") {
+                document.getElementById("msg").innerHTML = "please enter the user password";
+                return false;
+            }
+            else if (username == "admin" && userpass == "123") {
+                return true;
+            }
+            else {
+                document.getElementById("msg").innerHTML = "invalid user name";
+
+                return false;
+            }
+
+
+        }
+    </script>
+</head>
+
+<body>
+    <section style="margin: 100px;">
+        <form onsubmit="return valid()" action="./sample.html">
+            <input class="form-control" id="username"  required type="text" placeholder="username">
+            <input class="form-control" id="password" required type="password" placeholder="password">
+            <button type="submit" class="btn btn-primary">submit</button>
+            <hr> <span id="msg"></span>
+        </form>
+    </section>
+</body>
+
+</html>
