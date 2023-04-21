@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- hello@cecyours.org -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/boot-css/boot-strap.css">
+    <title>jqeury</title>
+    <script src="./jq.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("div").mouseenter(function(){
+                // $("p").css("background","red")
+            })
+
+            $("div").mouseleave(function(){
+
+                $("p").css("background","white")
+            })
+
+            $("#box1").mouseenter(function(){
+                $("p").css({"padding":"10px 10px",'color':'white'})
+            })
+
+            $("#box2").mouseenter(function(){
+                $("p").css({"font-family":"Hack"})
+            })
+            $("#box3").mouseenter(function(){
+                $(this).css("border-radius","50%")
+                $("p").toggle(1000)
+            })
+
+            $("#box3").mouseleave(function(){
+                $(this).css("border-radius",'1px')
+            })
+            
+        })
+    </script>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background: red;
+            float:left;
+        }
+    </style>
+</head>
+
+<body>
+    <section style="margin: 100px;">
+
+        <div id="box1">
+
+        </div>
+
+        <div id="box2">
+
+        </div>
+        <div id="box3">
+
+        </div >
+        <div id="box4" style="float: left;">
+
+        </div>
+        
+        <h1>Hello World</h1>
+    </section>
+    <br>
+    <p>
+        The jian (pronunciation [tɕjɛ̂n]（劍）, English approximation: /dʒjɛn/ jyehn) is a double-edged straight sword used during the last 2,500 years in China. The first Chinese sources that mention the jian date to the 7th century BCE, during the Spring and Autumn period;[1] one of the earliest specimens being the Sword of Goujian. Historical one-handed versions have blades varying from 45 to 80 centimeters (18 to 31 inches) in length. The weight of an average sword of 70-centimetre (28-inch) blade-length would be in a range of approximately 700 to 900 grams (1.5 to 2 pounds).[2] There are also larger two-handed versions used for training by many styles of Chinese martial arts.
+    </p>
+</body>
+
+</html>
