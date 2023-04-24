@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- hello@cecyours.org -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/boot-css/boot-strap.css">
+    <title>jqeury</title>
+    <script src="./jq.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("div").mouseenter(function(){
+                $(this).fadeOut(1000);
+                $(this).css("border-radius","30px")
+            })
+            $("div").mouseleave(function(){
+                $(this).css("border-radius","0px")
+                $(this).fadeIn(1000);
+            })
+
+        })
+    </script>
+    <style> 
+            div{
+                height: 100px;
+                width: 100%;
+                background: red;
+                margin: 10px;
+            }
+    </style>
+</head>
+
+<body>
+    <section style="margin: 30px;">
+        
+            <div id="box1"></div>
+            <div id="box1"></div>
+            <div id="box1"></div>
+            <div id="box1"></div>
+            <div id="box1"></div>
+            <div id="box1"></div>
+    </section>
+    
+   
+</body>
+
+</html>
