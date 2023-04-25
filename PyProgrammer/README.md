@@ -174,7 +174,6 @@ TextEditor + run
     - import in array
     - declare array
     - indexing & slicing
-    - operation on array
     - Array methods
 
 ```
